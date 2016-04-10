@@ -1,0 +1,49 @@
+ <html> 
+    <head>
+         <title> login autonomo</title>
+         <meta charset="UTF-8">
+         <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+         <img src="../images/logo.png" width="80" height="70" align="right"/>
+        <script>
+            function valida(){
+                if(document.login.password1.value != document.login.password2.value){
+                    alert("La password di conferma è errata.");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name='login' action="https://application-giulia.rhcloud.com/signup/confirm"  method="post" onSubmit="return valida()">
+            <table>
+                <tr>
+                    <td>Nome</td>
+                    <td><input type='text' name='nome' size='20' pattern="([A-Z]|[a-z])*" required autofocus></td>
+                </tr>
+                <tr>
+                    <td>Cognome</td>
+                    <td><input type='text' name='cognome' size='20' pattern="([A-Z]|[a-z])*" required></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type='text' name='email' pattern="([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type='password' name="password1" required></td>
+                </tr>
+                <tr>
+                    <td>Conferma Password</td>
+                    <td><input type='password' name="password2" required></td>
+                </tr>
+                <tr>
+                
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Reset"></td>
+                    <td><input type='submit' value='Invia'></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>  

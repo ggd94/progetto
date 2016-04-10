@@ -1,0 +1,17 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url("../images/libri.jpg");
+    background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+    color: #800000;
+    text-align: center;
+    font-size: 2cm;
+}
+ 
