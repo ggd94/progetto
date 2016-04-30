@@ -9,10 +9,10 @@ var crypto =require('crypto');
 var APP_ID_FACEBOOK='';
 var APP_SECRET_FB='';
 var URL_OAUTH='https://graph.facebook.com/v2.6/oauth/access_token';
-var URL='https://www.facebook.com/dialog/oauth?client_id='+APP_ID_FACEBOOK+'&redirect_uri=https://application-giulia.rhcloud.com/users/FBLogin/confirm&scope=email,user_location,user_hometown,user_tagged_places';
+var URL='https://www.facebook.com/dialog/oauth?client_id='+APP_ID_FACEBOOK+'&redirect_uri=https://application-giulia.rhcloud.com/users/FBLogin/confirm&scope=email,user_location,user_hometown,user_tagged_places,user_photos';
 var ACCESS_TOKEN,APPSECRET_PROOF;
 
-var USERNAME,ID,EMAIL,PHOTO;
+var USERNAME,ID,EMAIL,PHOTOS=[],IMAGE;
 var LUOGHI;
 
 /*funzione invocata al click del bottone per login facebook*/
@@ -36,6 +36,28 @@ router.get('/FBLogin/confirm',function(req,res,next){
             var element=JSON.parse(body);
             ACCESS_TOKEN = element.access_token;
             APPSECRET_PROOF=crypto.createHmac('SHA256',APP_SECRET_FB).update(ACCESS_TOKEN).digest('hex');
+            
+            request.get({
+                url: 'https://graph.facebook.com/v2.6/me/photos',
+                qs:{
+                    fields:"images,place",
+                    access_token: ACCESS_TOKEN,
+                    appsecret_proof: APPSECRET_PROOF
+                }
+            },function(error,response,body){
+                if(!error && response.statusCode==200){
+                    var array=JSON.parse(body).data;
+                    for(var i=0;i<array.length;i++){
+                        if(array[i].hasOwnProperty('place')){
+                                PHOTOS.push(array[i]);
+                        }
+                    }
+                }
+                else{
+                    console.log(error);
+                }
+            });
+            
             request.get({
                 url: 'https://graph.facebook.com/v2.6/me',
                 qs:{
@@ -48,7 +70,7 @@ router.get('/FBLogin/confirm',function(req,res,next){
                     USERNAME=JSON.parse(body).name;
                     ID=JSON.parse(body).id;
                     EMAIL=JSON.parse(body).email;
-                    PHOTO=JSON.parse(body).picture.data.url;
+                    IMAGE=JSON.parse(body).picture.data.url;
                     LUOGHI=JSON.parse(body).tagged_places.data;
 /************************** SALVO DATI IN FIREBASE ********************************/
 
@@ -58,8 +80,10 @@ router.get('/FBLogin/confirm',function(req,res,next){
                             id: ID,
                             user : USERNAME,
                             email: EMAIL,
-                            photo: PHOTO,
-                            luoghi:LUOGHI
+                            image: IMAGE,
+                            luoghi:LUOGHI,
+                            photos: PHOTOS
+    
                         }
                     };
                     request.put({
@@ -71,7 +95,7 @@ router.get('/FBLogin/confirm',function(req,res,next){
                         body: JSON.stringify(requestData)
                     },function(error,response,body){
                         if(!error && response.statusCode==200){
-                            res.render("home",{name: USERNAME,email: EMAIL,photo: PHOTO,luoghi: JSON.stringify(LUOGHI)});
+                            res.render("home",{name: USERNAME,email: EMAIL,photo: IMAGE,luoghi: JSON.stringify(LUOGHI),photos: JSON.stringify(PHOTOS)});
                         }
                         else{
                             console.log(error);
