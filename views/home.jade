@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    div(class='dati')
+        h3 #{name}
+        h5 #{email}
+        img(class='circle' src= photo)
+        script(src='https://maps.googleapis.com/maps/api/js?key=&callback=initMap' async defer)
+        div(id="googleMap" style="width:1200px;height:650px;")

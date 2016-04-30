@@ -1,0 +1,39 @@
+
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+}
+
+.dati{
+    position: absolute;
+    font: 18px;
+    top: 100px;
+    left: 150px;
+    right: 150px;
+}
+.circle{
+    position:absolute;
+    border-radius: 50%;
+}
+#googleMap{
+    position: absolute;
+    left:350px;
+    top: 0px;
+}
+
+.titolo{
+    font-size: 26px;
+    margin-left:300px;
+    margin-right:300px;
+    margin-top:100px;
+    height:auto;
+    background:#ffffff;
+}
+.testo{  
+    font-size: 22px;
+    margin-left:300px;
+    margin-right:300px;
+    margin-top:100px;
+    height:auto;
+    background:#ffffff;
+}

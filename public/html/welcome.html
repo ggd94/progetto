@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<title>TripTrack</title>
+	 
+	<link href="../stylesheets/bootstrap.css" rel="stylesheet">
+	 
+	<link href="../stylesheets/style.css" rel="stylesheet">
+ 
+	<!--[if lt IE 9]>
+	  <script src="js/html5shiv.js"></script>
+	  <script src="js/respond.min.js"></script>
+	<![endif]-->
+ 
+	<script src="../javascripts/home/pace.js"></script>
+ 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="preloader"></div>
+	
+    <! -- ******************** MASTHEAD SECTION ******************** -->	
+	<main id="top" class="masthead" role="main">
+		<div class="container">
+			<div class="titolo"> TRIPTRACK</div>
+            <h1><strong>share</strong> and <strong>join</strong> your trip.</h1>
+            
+			<div class="row">
+                    <div class="fb">
+                            <a name='FB' class='help' onclick=location.assign('https://application-giulia.rhcloud.com/users/FBLogin')><img src="../images/facebook.png"/></a>
+                    </div>
+					<span id="result" class="alertMsg"></span> </div>
+
+				<a href="#explore" class="scrollto">
+				<p>SCROLL DOWN TO EXPLORE</p>
+				<p class="scrollto--arrow"><img src="../images/scroll_down.png" alt="scroll down arrow"></p>
+				</a>
+		</div><! --/container -->
+	</main><! --/main -->
+ 
+
+    <! -- ******************** FEATURES SECTION ******************** -->	
+	<div class="container" id="explore">
+ 
+		<div class="section-title">
+			<h2>Learn and Teach your Travel</h2>
+			<h4>Enjoy</h4>
+		</div>
+	    <! -- ******************** TESTIMONIALS SECTION ******************** -->	 
+		<div class="highlight testimonials">
+			<div class="container">
+				<div class="section-title">
+					<h2>Application Developers</h2>
+				</div>
+				
+				<section class="row breath">
+					<div class="col-md-6">
+                        <div class="clientblock"> 
+							<img src="../images/customer-img-1.jpg" alt=".">
+							<p><strong>Massimiliano Cestra</strong> </p>
+						</div>
+                        <br>
+                        <div class="clientblock"> 
+							<img src="../images/customer-img-2.jpg" alt=".">
+							<p><strong>Giulia Giugno</strong></p>
+						</div>
+                        <br>
+                        <div class="clientblock"> 
+							<img src="../images/customer-img-2.jpg" alt=".">
+							<p><strong>Jessica Brandi</strong></p>
+						</div>
+                        <br>
+                        <div class="clientblock"> 
+							<img src="../images/customer-img-2.jpg" alt=".">
+							<p><strong>Nicolo Cardamone</strong></p>
+						</div>
+                    </div>
+				</section><! --/section -->
+ 
+			</div><! --/container -->
+		</div><! --/highlight Testimonials -->
+        
+	    <! -- ******************** FAQ ******************** -->	  
+ 
+		<div class="section-title">
+			<h4><a href="https://www.iubenda.com/privacy-policy/7840135/legal" class="normativa" title="Privacy Policy">Privacy Policy</a></h4>
+		</div>
+		
+	</div><! --/container -->
+ 
+	    <! -- ******************** FOOTER ******************** -->	  
+		<main class="footercta" role="main">
+			<div class="container">
+				<h1><strong>Start it and Enjoy</strong> <br>
+                Good travel</h1>
+ 
+			</div><! --/container -->
+		</main><! --/main -->
+ 
+		<div class="container">
+			<section class="row breath">
+				<div class="col-md-12 footerlinks">
+					<p>&copy; 2014 BlackTie.co. All Rights Reserved</p>
+				</div>
+			</section><! --/section -->
+		</div><! --/container -->
+ 
+ 
+ 
+ 
+<script src="../javascripts/home/jquery.js"></script>
+<script src="../javascripts/home/bootstrap.js"></script>
+<script src="../javascripts/home/easing.js"></script>
+<script src="../javascripts/home/nicescroll.js"></script>
+ 
+ 
+<script>
+
+
+ $(function() {
+    $('.scrollto, .gototop').bind('click',function(event){
+		 var $anchor = $(this);
+		 $('html, body').stop().animate({
+         scrollTop: $($anchor.attr('href')).offset().top
+          }, 1500,'easeInOutExpo');
+     event.preventDefault();
+      });
+  });
+        
+
+</script>
+ 
+</body>
+</html>
