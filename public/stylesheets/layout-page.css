@@ -12,17 +12,22 @@ body {
     right: 150px;
 }
 .circle{
-    position:absolute;
+    position:relative;
+    top:10px;
     border-radius: 50%;
 }
-.immagini{
-}
+
+
 #googleMap{
     position: absolute;
     left:350px;
     top: 0px;
 }
+input{
+    position:relative;
+    top: 50px;
 
+}
 .titolo{
     font-size: 26px;
     margin-left:300px;

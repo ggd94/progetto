@@ -1,4 +1,6 @@
 var marker_array=[];
+var contentString='';
+      
 function initMap(){
     var map=new google.maps.Map(document.getElementById('googleMap'),{
         center: {lat: 46.10370807092794, lng: 11.865234375},
@@ -12,15 +14,13 @@ function initMap(){
     }
     
     for(var count=0;count<marker_array.length;count++){
-        google.maps.event.addListener(marker_array[count],'click',function(){
-            var html='';
-            for(var i=0;i<array_foto.length;i++){
-                if(marker_array[count].title == array_foto[i].place.location.city){
-                    for(var j=0;j<array_foto[i].images.length;j++)
-                        html+='<img src='+array_foto[i].images[j].source+'/>';
-                }
-            }
-            document.getElementById('zonaDinamica').innerHTML=html;
+        marker_array[count].addListener('click',function(){
+            add_images(this);
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+            infowindow.open(map,this);
+            contentString='';
         });
     }
     
@@ -31,7 +31,18 @@ function addMarker(location, map, nome) {
     map: map,
     title: nome
   });
-  console.log(marker);
   marker_array.push(marker);
   marker.setMap(map);
 }
+
+
+
+function add_images(marker){
+    for(var i=0;i<array_foto.length;i++){
+        if(marker.title == array_foto[i].place.location.city){
+            var len=array_foto[i].images.length-1;
+            contentString+='<img height="100" width="100" src="'+array_foto[i].images[len].source+'"/>';
+        }
+    }
+}
+

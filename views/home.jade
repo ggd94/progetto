@@ -5,6 +5,8 @@ block content
         h3 #{name}
         h5 #{email}
         img(class='circle' src= photo)
-        #zonaDinamica
         script(src='https://maps.googleapis.com/maps/api/js?key=&callback=initMap' async defer)
         div(id="googleMap" style="width:1200px;height:650px;")
+        input(type='text' name='place' maxlenght='40' placeholder='search place')
+        br
+        input(type='text' name='friends' maxlenght='40' placeholder='search friends')
