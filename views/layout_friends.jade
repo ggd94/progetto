@@ -1,14 +1,12 @@
 doctype html
 html
   head
-    title='TripTrack-HOME'
+    title= 'TripTrack-FRIEND'
     link(rel='stylesheet', href='/stylesheets/layout-page.css')
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js")
     script. 
         var array_luoghi_temp= !{luoghi};
         var array_foto_temp= !{photos};
-        var array_friends= !{friends};
-        history.pushState('','Triptrack-Home','https://application-giulia.rhcloud.com/users/FBLogin/confirm');
     script(src='../../javascripts/maps.js')
   body
     block content

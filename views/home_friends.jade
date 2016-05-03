@@ -1,11 +1,11 @@
-extends layout
+extends layout_friends
 
 block content
     div(class='dati')
         h3(id='name') #{name}
         h5(id='email') #{email}
         div(id='image')
-            img(class='circle' src= photo)
+            img(class='circle' src= image)
         script(src='https://maps.googleapis.com/maps/api/js?key=&callback=initMap' async defer)
         div(id="googleMap" style="width:1200px;height:650px;")
         br
@@ -18,7 +18,6 @@ block content
                         search
             tr
                 td
-                    #zonaDinamica
-                        button(id='friends' onclick='friends()').
-                            search friends
+                    button(id='home' onclick="location.assign('https://application-giulia.rhcloud.com/users/FBLogin/confirm')").
+                        HOME
             
