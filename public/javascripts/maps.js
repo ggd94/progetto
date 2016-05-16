@@ -1,8 +1,10 @@
 var marker_array=[];
 var contentString='';
-var array_luoghi= array_luoghi_temp;
-var array_foto= array_foto_temp;
+var array_luoghi;
+var array_foto;
 var map;
+                                /**************************GESTIONE MAPS***********************************/
+
 function initMap(){
     map=new google.maps.Map(document.getElementById('googleMap'),{
         center: {lat: 46.10370807092794, lng: 11.865234375},
@@ -27,6 +29,7 @@ function initMap(){
             contentString='';
         });
     }
+    
     
 }
 function addMarker(location, map, nome) {
@@ -54,7 +57,11 @@ function place(){
     var luogo=document.getElementById('place').value;
     var geocoder= new google.maps.Geocoder();
     geocoder.geocode({'address': luogo},function(results,status){
-        if(status == google.maps.GeocoderStatus.OK){
+        if(luogo==''){
+            alert('Inserire un Luogo');
+            return false;
+        }
+        else if(status == google.maps.GeocoderStatus.OK){
             map.setCenter(results[0].geometry.location);
             map.setZoom(10);
             var proprieta = {
@@ -71,25 +78,16 @@ function place(){
                 position: results[0].geometry.location,
                 icon: proprieta
             });
-            var content='';
-            var cont=0;
             marker.addListener('click',function(){
-                console.log("ARRAY LEN "+array_friends.length);
-                for(var p=0;p<array_friends.length;p++){
-                    $.post('https://application-giulia.rhcloud.com/users/luogoCercato',{friend:array_friends[p].id,place: luogo},function(data){
-                        if(data.name != ''){
-                            content+='<p>'+data.name+'</p> <br>';
-                            console.log(content);
-                        }
-                        cont=cont+1;
+                var m=this;
+                $.post('https://app-ggd94.c9users.io/users/luogoCercato',{friend:JSON.stringify(array_friends),place: luogo},function(data){
+                    var content= ''+data.names;
+                    var infowindow = new google.maps.InfoWindow({
+                        content: content
                     });
-                }
-                console.log(cont);
-                console.log(content);
-                var infowindow = new google.maps.InfoWindow({
-                    content: content
+                    console.log(content);
+                    infowindow.open(map,m);
                 });
-                infowindow.open(map,this);
             });
         }
         else{
@@ -98,23 +96,34 @@ function place(){
     });
 }
 
+
 function friends(){
     var html='';
     for(var j=0;j<array_friends.length;j++){
-        html+= '<a onclick="friends_map('+array_friends[j].id+')" >'+array_friends[j].name+'</a> <br>';
+        html+= '<a onclick="friends_map('+j+')" >'+array_friends[j].name+'</a> <br>';
     }
     document.getElementById('zonaDinamica').innerHTML=html;
 }
 
-function friends_map(id_user){
-            var url='https://application-giulia.rhcloud.com/users/dataFriends';
+function friends_map(k){
+            var id=array_friends[k].id;
+            var url='https://app-ggd94.c9users.io/users/dataFriends';
             var form=$('<form action="'+ url +'" method="post">'+
-                '<input type="hidden" name="id" value="'+id_user+'">'+
+                '<input type="hidden" name="id" value="'+id+'">'+
                 '</form>');
             $('body').append(form);
             form.submit();
 }
-    
-                
-    
 
+                                /****************************** GESTIONE ADD PLACE *********************************************/  
+    function validation(){
+        var luogo=document.form1.city.value;
+        var geocoder= new google.maps.Geocoder();
+        geocoder.geocode({'address': luogo},function(results,status){
+            if(!status == google.maps.GeocoderStatus.OK){
+                alert("Il luogo inserito è inesistente");
+                return false;
+            }
+        });
+    }
+                            

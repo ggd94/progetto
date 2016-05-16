@@ -6,18 +6,12 @@ block content
         h5(id='email') #{email}
         div(id='image')
             img(class='circle' src= image)
-        script(src='https://maps.googleapis.com/maps/api/js?key=&callback=initMap' async defer)
+        script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyATG1tW_2n_3vYlJt9T83YB4VvRVxfUthE&callback=initMap' async defer)
         div(id="googleMap" style="width:1200px;height:650px;")
         br
         table
             tr
-                td 
-                    input(type='text' id='place' maxlenght='40' placeholder='search place')
                 td
-                    button(name='place' onclick='place()').
-                        search
-            tr
-                td
-                    button(id='home' onclick="location.assign('https://application-giulia.rhcloud.com/users/FBLogin/confirm')").
+                    button(id='home' onclick="location.assign('https://app-ggd94.c9users.io/users/FBLogin/confirm')").
                         HOME
             

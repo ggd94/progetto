@@ -4,11 +4,13 @@ html
     title='TripTrack-HOME'
     link(rel='stylesheet', href='/stylesheets/layout-page.css')
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js")
-    script. 
-        var array_luoghi_temp= !{luoghi};
-        var array_foto_temp= !{photos};
-        var array_friends= !{friends};
-        history.pushState('','Triptrack-Home','https://application-giulia.rhcloud.com/users/FBLogin/confirm');
     script(src='../../javascripts/maps.js')
+    script.
+      history.pushState('','triptrack','https://app-ggd94.c9users.io/users/FBLogin/confirm');
+      var array_luoghi= !{luoghi};
+      var array_foto= !{photos};
+      var array_friends= !{friends};
+      var at= '#{at}';
+      var asp= '#{asp}';
   body
     block content

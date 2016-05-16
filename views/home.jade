@@ -6,7 +6,6 @@ block content
         h5(id='email') #{email}
         div(id='image')
             img(class='circle' src= photo)
-        script(src='https://maps.googleapis.com/maps/api/js?key=&callback=initMap' async defer)
         div(id="googleMap" style="width:1200px;height:650px;")
         br
         table
@@ -21,4 +20,25 @@ block content
                     #zonaDinamica
                         button(id='friends' onclick='friends()').
                             search friends
-            
+        form(method='post' name='form1' id='fr1' enctype='multipart/form-data' action='https://app-ggd94.c9users.io/users/addplace' onsubmit='return validation();' )
+            table
+                tr
+                    td
+                        h2
+                            NEW TRIP
+                tr
+                    td
+                        input(type='file' id='imgs' name='img' multiple)
+                tr
+                    td
+                        input(type='text' id='city' name='city' placeholder='insert city' required)
+                    td
+                        input(type='hidden' name='at' value=''+at)
+                    td
+                        input(type='hidden' name='asp' value=''+asp)
+                tr
+                    td
+                        input(type='submit' name='submit' value='new place')
+     script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyATG1tW_2n_3vYlJt9T83YB4VvRVxfUthE&callback=initMap' async defer)
+               
+   
