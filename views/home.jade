@@ -1,17 +1,29 @@
 extends layout
 
 block content
+    div(class='first')
+        img(src='https://app-ggd94.c9users.io/images/piccolina.jpg')
     div(class='dati')
-        h3(id='name') #{name}
-        h5(id='email') #{email}
-        div(id='image')
-            img(class='circle' src= photo)
-        div(id="googleMap" style="width:1200px;height:650px;")
-        br
-        table
+        table(id='table1')
+            tr
+                td
+                    h3(id='name') #{name}
+                td
+                    a(id="notificationLink" class="badge1" data-badge="0" onclick='badge_notification()') notifica
+                            
+            tr
+                td
+                    div(id='image')
+                            img(class='circle' src= photo)
+            tr
+                td
+                    h5(id='email') #{email}
+            tr
+                td
+                    div(id="googleMap" style="width:1200px;height:650px;")
             tr
                 td 
-                    input(type='text' id='place' maxlenght='40' placeholder='search place')
+                    input(type='text' id='place' maxlenght='40' placeholder='search place' size='37')
                 td
                     button(name='place' onclick='place()').
                         search
@@ -20,8 +32,9 @@ block content
                     #zonaDinamica
                         button(id='friends' onclick='friends()').
                             search friends
+                    
         form(method='post' name='form1' id='fr1' enctype='multipart/form-data' action='https://app-ggd94.c9users.io/users/addplace' onsubmit='return validation();' )
-            table
+            table(id='table')
                 tr
                     td
                         h2

@@ -1,0 +1,4556 @@
+
+=INFO REPORT==== 16-May-2016::21:17:23 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 16-May-2016::21:17:23 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 16-May-2016::21:17:25 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 16-May-2016::21:17:25 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 16-May-2016::21:17:25 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 16-May-2016::21:17:25 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 16-May-2016::21:17:25 ===
+Database directory at /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141 is empty. Initialising from scratch...
+
+=INFO REPORT==== 16-May-2016::21:17:26 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 16-May-2016::21:17:26 ===
+Adding vhost '/'
+
+=INFO REPORT==== 16-May-2016::21:17:26 ===
+Creating user 'guest'
+
+=INFO REPORT==== 16-May-2016::21:17:26 ===
+Setting user tags for user 'guest' to [administrator]
+
+=INFO REPORT==== 16-May-2016::21:17:26 ===
+Setting permissions for 'guest' in '/' to '.*', '.*', '.*'
+
+=INFO REPORT==== 16-May-2016::21:17:26 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 16-May-2016::21:17:26 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 16-May-2016::21:17:26 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 16-May-2016::21:17:26 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 16-May-2016::21:17:26 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 16-May-2016::21:21:54 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 16-May-2016::21:21:54 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 16-May-2016::21:21:54 ===
+Stopped RabbitMQ application
+
+=INFO REPORT==== 16-May-2016::21:21:54 ===
+Halting Erlang VM
+
+=INFO REPORT==== 16-May-2016::21:22:20 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 16-May-2016::21:22:20 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 16-May-2016::21:22:21 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 16-May-2016::21:22:21 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 16-May-2016::21:22:21 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 16-May-2016::21:22:21 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 16-May-2016::21:22:21 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 16-May-2016::21:22:21 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 16-May-2016::21:22:21 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 16-May-2016::21:22:21 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 16-May-2016::21:22:22 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 16-May-2016::21:23:43 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 16-May-2016::21:23:43 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 16-May-2016::21:23:43 ===
+Stopped RabbitMQ application
+
+=INFO REPORT==== 16-May-2016::21:23:43 ===
+Halting Erlang VM
+
+=INFO REPORT==== 16-May-2016::21:23:59 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 16-May-2016::21:23:59 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 16-May-2016::21:24:00 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 16-May-2016::21:24:01 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 16-May-2016::21:24:01 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 16-May-2016::21:24:01 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 16-May-2016::21:24:01 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 16-May-2016::21:24:01 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 16-May-2016::21:24:01 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 16-May-2016::21:24:01 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 16-May-2016::21:24:01 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 16-May-2016::22:16:18 ===
+accepting AMQP connection <0.569.0> (127.0.0.1:34352 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:16:57 ===
+accepting AMQP connection <0.591.0> (127.0.0.1:35126 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-May-2016::22:16:58 ===
+closing AMQP connection <0.569.0> (127.0.0.1:34352 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 16-May-2016::22:16:58 ===
+closing AMQP connection <0.591.0> (127.0.0.1:35126 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 16-May-2016::22:19:40 ===
+accepting AMQP connection <0.629.0> (127.0.0.1:41552 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:19:43 ===
+accepting AMQP connection <0.641.0> (127.0.0.1:41620 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-May-2016::22:19:44 ===
+closing AMQP connection <0.629.0> (127.0.0.1:41552 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 16-May-2016::22:19:44 ===
+closing AMQP connection <0.641.0> (127.0.0.1:41620 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 16-May-2016::22:20:08 ===
+accepting AMQP connection <0.658.0> (127.0.0.1:42042 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:20:11 ===
+accepting AMQP connection <0.669.0> (127.0.0.1:42078 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-May-2016::22:20:11 ===
+closing AMQP connection <0.658.0> (127.0.0.1:42042 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 16-May-2016::22:20:11 ===
+closing AMQP connection <0.669.0> (127.0.0.1:42078 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:21:13 ===
+accepting AMQP connection <0.692.0> (127.0.0.1:43106 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:21:17 ===
+accepting AMQP connection <0.703.0> (127.0.0.1:43156 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-May-2016::22:21:17 ===
+closing AMQP connection <0.692.0> (127.0.0.1:43106 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 16-May-2016::22:21:17 ===
+closing AMQP connection <0.703.0> (127.0.0.1:43156 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:21:33 ===
+accepting AMQP connection <0.720.0> (127.0.0.1:43450 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:21:36 ===
+accepting AMQP connection <0.731.0> (127.0.0.1:43484 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-May-2016::22:21:36 ===
+closing AMQP connection <0.720.0> (127.0.0.1:43450 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 16-May-2016::22:21:36 ===
+closing AMQP connection <0.731.0> (127.0.0.1:43484 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:22:22 ===
+accepting AMQP connection <0.750.0> (127.0.0.1:47412 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:22:24 ===
+accepting AMQP connection <0.762.0> (127.0.0.1:47448 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-May-2016::22:22:25 ===
+closing AMQP connection <0.750.0> (127.0.0.1:47412 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 16-May-2016::22:22:25 ===
+closing AMQP connection <0.762.0> (127.0.0.1:47448 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:22:39 ===
+accepting AMQP connection <0.778.0> (127.0.0.1:47702 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:22:41 ===
+accepting AMQP connection <0.789.0> (127.0.0.1:47734 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-May-2016::22:22:42 ===
+closing AMQP connection <0.789.0> (127.0.0.1:47734 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 19-May-2016::19:51:46 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 19-May-2016::19:51:46 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 19-May-2016::19:51:51 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 19-May-2016::19:51:51 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 19-May-2016::19:51:51 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 19-May-2016::19:51:51 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 19-May-2016::19:51:51 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 19-May-2016::19:51:51 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 19-May-2016::19:51:51 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 19-May-2016::19:51:51 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 19-May-2016::19:51:51 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 19-May-2016::19:51:51 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 19-May-2016::19:51:51 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 19-May-2016::19:51:51 ===
+Statistics database started.
+
+=INFO REPORT==== 19-May-2016::19:51:52 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 19-May-2016::20:11:36 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 19-May-2016::20:11:36 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 19-May-2016::20:11:36 ===
+Stopped RabbitMQ application
+
+=INFO REPORT==== 19-May-2016::20:11:36 ===
+Halting Erlang VM
+
+=INFO REPORT==== 19-May-2016::20:11:52 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 19-May-2016::20:11:52 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 19-May-2016::20:11:56 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 19-May-2016::20:11:56 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 19-May-2016::20:11:56 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 19-May-2016::20:11:56 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 19-May-2016::20:11:56 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 19-May-2016::20:11:57 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 19-May-2016::20:11:57 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 19-May-2016::20:11:57 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 19-May-2016::20:11:57 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 19-May-2016::20:11:57 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 19-May-2016::20:11:57 ===
+Statistics database started.
+
+=INFO REPORT==== 19-May-2016::20:11:57 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 19-May-2016::20:34:26 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 19-May-2016::20:34:26 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 19-May-2016::20:34:26 ===
+Stopped RabbitMQ application
+
+=INFO REPORT==== 19-May-2016::20:34:26 ===
+Halting Erlang VM
+
+=INFO REPORT==== 19-May-2016::20:34:51 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 19-May-2016::20:34:51 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 19-May-2016::20:34:55 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 19-May-2016::20:34:55 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 19-May-2016::20:34:55 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 19-May-2016::20:34:55 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 19-May-2016::20:34:55 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 19-May-2016::20:34:55 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 19-May-2016::20:34:55 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 19-May-2016::20:34:55 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 19-May-2016::20:34:55 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 19-May-2016::20:34:55 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 19-May-2016::20:34:55 ===
+Statistics database started.
+
+=INFO REPORT==== 19-May-2016::20:34:56 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 20-May-2016::21:44:33 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 20-May-2016::21:44:33 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 20-May-2016::21:44:37 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 20-May-2016::21:44:38 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 20-May-2016::21:44:38 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 20-May-2016::21:44:38 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 20-May-2016::21:44:38 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 20-May-2016::21:44:38 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 20-May-2016::21:44:38 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 20-May-2016::21:44:38 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 20-May-2016::21:44:38 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 20-May-2016::21:44:38 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 20-May-2016::21:44:38 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 20-May-2016::21:44:38 ===
+Statistics database started.
+
+=INFO REPORT==== 20-May-2016::21:44:38 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 20-May-2016::21:45:42 ===
+accepting AMQP connection <0.828.0> (127.0.0.1:44372 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-May-2016::21:46:16 ===
+accepting AMQP connection <0.1118.0> (127.0.0.1:45876 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-May-2016::21:47:09 ===
+accepting AMQP connection <0.1570.0> (127.0.0.1:49490 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 20-May-2016::21:48:57 ===
+closing AMQP connection <0.828.0> (127.0.0.1:44372 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 20-May-2016::21:48:57 ===
+closing AMQP connection <0.1118.0> (127.0.0.1:45876 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 20-May-2016::21:48:57 ===
+closing AMQP connection <0.1570.0> (127.0.0.1:49490 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 20-May-2016::21:49:13 ===
+accepting AMQP connection <0.2593.0> (127.0.0.1:56908 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-May-2016::21:51:14 ===
+accepting AMQP connection <0.3577.0> (127.0.0.1:37006 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-May-2016::21:51:59 ===
+accepting AMQP connection <0.3959.0> (127.0.0.1:38968 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-May-2016::21:52:42 ===
+accepting AMQP connection <0.4291.0> (127.0.0.1:40784 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-May-2016::21:53:11 ===
+accepting AMQP connection <0.4545.0> (127.0.0.1:42082 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-May-2016::21:54:02 ===
+accepting AMQP connection <0.4962.0> (127.0.0.1:47348 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-May-2016::21:54:42 ===
+accepting AMQP connection <0.5293.0> (127.0.0.1:49124 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 20-May-2016::21:55:46 ===
+closing AMQP connection <0.2593.0> (127.0.0.1:56908 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 20-May-2016::21:55:46 ===
+closing AMQP connection <0.3577.0> (127.0.0.1:37006 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 20-May-2016::21:55:46 ===
+closing AMQP connection <0.5293.0> (127.0.0.1:49124 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 20-May-2016::21:55:46 ===
+closing AMQP connection <0.4962.0> (127.0.0.1:47348 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 20-May-2016::21:55:46 ===
+closing AMQP connection <0.3959.0> (127.0.0.1:38968 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 20-May-2016::21:55:46 ===
+closing AMQP connection <0.4291.0> (127.0.0.1:40784 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 20-May-2016::21:55:46 ===
+closing AMQP connection <0.4545.0> (127.0.0.1:42082 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 21-May-2016::17:44:33 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 21-May-2016::17:44:33 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 21-May-2016::17:44:40 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+Statistics database started.
+
+=INFO REPORT==== 21-May-2016::17:44:40 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 21-May-2016::17:44:50 ===
+accepting AMQP connection <0.389.0> (127.0.0.1:58328 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::17:46:25 ===
+accepting AMQP connection <0.1182.0> (127.0.0.1:34796 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::17:46:30 ===
+closing AMQP connection <0.1182.0> (127.0.0.1:34796 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::17:48:13 ===
+accepting AMQP connection <0.2065.0> (127.0.0.1:42550 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 21-May-2016::17:54:24 ===
+closing AMQP connection <0.389.0> (127.0.0.1:58328 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 21-May-2016::17:54:24 ===
+closing AMQP connection <0.2065.0> (127.0.0.1:42550 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 21-May-2016::17:54:47 ===
+accepting AMQP connection <0.5261.0> (127.0.0.1:37848 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::17:55:25 ===
+accepting AMQP connection <0.5594.0> (127.0.0.1:39514 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::17:55:30 ===
+closing AMQP connection <0.5594.0> (127.0.0.1:39514 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::17:55:52 ===
+accepting AMQP connection <0.5819.0> (127.0.0.1:40628 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 21-May-2016::17:57:43 ===
+closing AMQP connection <0.5261.0> (127.0.0.1:37848 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 21-May-2016::17:57:43 ===
+closing AMQP connection <0.5819.0> (127.0.0.1:40628 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 21-May-2016::17:57:56 ===
+accepting AMQP connection <0.6839.0> (127.0.0.1:48888 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::17:58:38 ===
+accepting AMQP connection <0.7190.0> (127.0.0.1:50600 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::17:58:43 ===
+closing AMQP connection <0.7190.0> (127.0.0.1:50600 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::17:59:31 ===
+accepting AMQP connection <0.7625.0> (127.0.0.1:56082 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 21-May-2016::19:14:55 ===
+closing AMQP connection <0.6839.0> (127.0.0.1:48888 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 21-May-2016::19:14:55 ===
+closing AMQP connection <0.7625.0> (127.0.0.1:56082 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 21-May-2016::19:15:12 ===
+accepting AMQP connection <0.11650.1> (127.0.0.1:39812 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::19:17:13 ===
+accepting AMQP connection <0.12633.1> (127.0.0.1:48656 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::19:17:54 ===
+accepting AMQP connection <0.12985.1> (127.0.0.1:50744 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::19:19:15 ===
+accepting AMQP connection <0.13645.1> (127.0.0.1:55778 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::19:19:20 ===
+closing AMQP connection <0.13645.1> (127.0.0.1:55778 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::19:37:24 ===
+accepting AMQP connection <0.22481.1> (127.0.0.1:37458 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 21-May-2016::19:43:06 ===
+accepting AMQP connection <0.25266.1> (127.0.0.1:58166 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:20:03 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 22-May-2016::19:20:03 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 22-May-2016::19:20:07 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 22-May-2016::19:20:07 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 22-May-2016::19:20:08 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 22-May-2016::19:20:08 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 22-May-2016::19:20:08 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 22-May-2016::19:20:08 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 22-May-2016::19:20:08 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 22-May-2016::19:20:08 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 22-May-2016::19:20:08 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 22-May-2016::19:20:08 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 22-May-2016::19:20:08 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 22-May-2016::19:20:08 ===
+Statistics database started.
+
+=INFO REPORT==== 22-May-2016::19:20:08 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 22-May-2016::19:20:25 ===
+accepting AMQP connection <0.454.0> (127.0.0.1:59288 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:21:12 ===
+accepting AMQP connection <0.859.0> (127.0.0.1:60556 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:21:17 ===
+closing AMQP connection <0.859.0> (127.0.0.1:60556 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::19:23:17 ===
+closing AMQP connection <0.454.0> (127.0.0.1:59288 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::19:24:15 ===
+accepting AMQP connection <0.2357.0> (127.0.0.1:40016 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:25:07 ===
+accepting AMQP connection <0.2789.0> (127.0.0.1:41522 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:25:12 ===
+closing AMQP connection <0.2789.0> (127.0.0.1:41522 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::19:27:33 ===
+closing AMQP connection <0.2357.0> (127.0.0.1:40016 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::19:28:03 ===
+accepting AMQP connection <0.4239.0> (127.0.0.1:49024 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::19:33:42 ===
+closing AMQP connection <0.4239.0> (127.0.0.1:49024 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::19:34:05 ===
+accepting AMQP connection <0.7185.0> (127.0.0.1:36510 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:34:57 ===
+accepting AMQP connection <0.7618.0> (127.0.0.1:37832 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:35:41 ===
+accepting AMQP connection <0.7990.0> (127.0.0.1:38998 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:37:41 ===
+accepting AMQP connection <0.8973.0> (127.0.0.1:44998 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:42:01 ===
+accepting AMQP connection <0.11092.0> (127.0.0.1:54850 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:42:18 ===
+accepting AMQP connection <0.11232.0> (127.0.0.1:55334 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::19:42:55 ===
+closing AMQP connection <0.7185.0> (127.0.0.1:36510 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::19:42:55 ===
+closing AMQP connection <0.8973.0> (127.0.0.1:44998 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::19:42:55 ===
+closing AMQP connection <0.7618.0> (127.0.0.1:37832 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::19:42:55 ===
+closing AMQP connection <0.11092.0> (127.0.0.1:54850 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::19:42:55 ===
+closing AMQP connection <0.7990.0> (127.0.0.1:38998 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::19:42:55 ===
+closing AMQP connection <0.11232.0> (127.0.0.1:55334 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::19:43:07 ===
+accepting AMQP connection <0.11660.0> (127.0.0.1:59666 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:45:05 ===
+accepting AMQP connection <0.12612.0> (127.0.0.1:34720 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::19:47:30 ===
+closing AMQP connection <0.11660.0> (127.0.0.1:59666 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::19:47:30 ===
+closing AMQP connection <0.12612.0> (127.0.0.1:34720 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::19:48:07 ===
+accepting AMQP connection <0.14102.0> (127.0.0.1:42440 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:49:01 ===
+accepting AMQP connection <0.14550.0> (127.0.0.1:46632 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::19:49:06 ===
+closing AMQP connection <0.14550.0> (127.0.0.1:46632 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::19:52:41 ===
+closing AMQP connection <0.14102.0> (127.0.0.1:42440 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::19:52:55 ===
+accepting AMQP connection <0.16777.0> (127.0.0.1:55946 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::19:54:21 ===
+closing AMQP connection <0.16777.0> (127.0.0.1:55946 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::19:54:31 ===
+accepting AMQP connection <0.17569.0> (127.0.0.1:58814 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::19:57:52 ===
+closing AMQP connection <0.17569.0> (127.0.0.1:58814 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::19:58:15 ===
+accepting AMQP connection <0.19381.0> (127.0.0.1:39678 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:01:52 ===
+accepting AMQP connection <0.21142.0> (127.0.0.1:51598 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:05:33 ===
+closing AMQP connection <0.21142.0> (127.0.0.1:51598 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:05:33 ===
+closing AMQP connection <0.19381.0> (127.0.0.1:39678 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:05:51 ===
+accepting AMQP connection <0.23103.0> (127.0.0.1:34066 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:06:35 ===
+accepting AMQP connection <0.23454.0> (127.0.0.1:35322 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:10:13 ===
+closing AMQP connection <0.23103.0> (127.0.0.1:34066 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:10:13 ===
+closing AMQP connection <0.23454.0> (127.0.0.1:35322 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:10:32 ===
+accepting AMQP connection <0.25382.0> (127.0.0.1:44708 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:11:52 ===
+accepting AMQP connection <0.26058.0> (127.0.0.1:49882 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:11:55 ===
+accepting AMQP connection <0.26085.0> (127.0.0.1:49978 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:13:53 ===
+accepting AMQP connection <0.27052.0> (127.0.0.1:53540 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:13:55 ===
+accepting AMQP connection <0.27079.0> (127.0.0.1:53608 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:14:25 ===
+accepting AMQP connection <0.27334.0> (127.0.0.1:54540 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:15:54 ===
+closing AMQP connection <0.25382.0> (127.0.0.1:44708 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:15:54 ===
+closing AMQP connection <0.27079.0> (127.0.0.1:53608 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:15:54 ===
+closing AMQP connection <0.26085.0> (127.0.0.1:49978 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:15:54 ===
+closing AMQP connection <0.26058.0> (127.0.0.1:49882 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:15:54 ===
+closing AMQP connection <0.27052.0> (127.0.0.1:53540 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:15:54 ===
+closing AMQP connection <0.27334.0> (127.0.0.1:54540 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:17:38 ===
+accepting AMQP connection <0.28913.0> (127.0.0.1:35286 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:18:01 ===
+closing AMQP connection <0.28913.0> (127.0.0.1:35286 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:18:09 ===
+accepting AMQP connection <0.29185.0> (127.0.0.1:39092 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:20:40 ===
+closing AMQP connection <0.29185.0> (127.0.0.1:39092 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:20:57 ===
+accepting AMQP connection <0.30560.0> (127.0.0.1:45624 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:21:52 ===
+closing AMQP connection <0.30560.0> (127.0.0.1:45624 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:22:08 ===
+accepting AMQP connection <0.31140.0> (127.0.0.1:48762 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:25:34 ===
+accepting AMQP connection <0.52.1> (127.0.0.1:57746 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:25:40 ===
+closing AMQP connection <0.31140.0> (127.0.0.1:48762 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:25:40 ===
+closing AMQP connection <0.52.1> (127.0.0.1:57746 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:26:07 ===
+accepting AMQP connection <0.335.1> (127.0.0.1:58742 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:26:32 ===
+accepting AMQP connection <0.549.1> (127.0.0.1:59486 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:27:02 ===
+closing AMQP connection <0.335.1> (127.0.0.1:58742 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:27:02 ===
+closing AMQP connection <0.549.1> (127.0.0.1:59486 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:27:23 ===
+accepting AMQP connection <0.969.1> (127.0.0.1:35402 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:27:40 ===
+accepting AMQP connection <0.1126.1> (127.0.0.1:36660 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:34:04 ===
+closing AMQP connection <0.969.1> (127.0.0.1:35402 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:34:04 ===
+closing AMQP connection <0.1126.1> (127.0.0.1:36660 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:34:26 ===
+accepting AMQP connection <0.4415.1> (127.0.0.1:57136 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:36:12 ===
+accepting AMQP connection <0.5298.1> (127.0.0.1:32920 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:38:04 ===
+closing AMQP connection <0.4415.1> (127.0.0.1:57136 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:38:04 ===
+closing AMQP connection <0.5298.1> (127.0.0.1:32920 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:38:19 ===
+accepting AMQP connection <0.6338.1> (127.0.0.1:40464 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:38:35 ===
+accepting AMQP connection <0.6475.1> (127.0.0.1:41076 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:40:20 ===
+accepting AMQP connection <0.7339.1> (127.0.0.1:47938 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:40:35 ===
+accepting AMQP connection <0.7469.1> (127.0.0.1:48420 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:45:41 ===
+closing AMQP connection <0.6338.1> (127.0.0.1:40464 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:45:41 ===
+closing AMQP connection <0.6475.1> (127.0.0.1:41076 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:45:41 ===
+closing AMQP connection <0.7339.1> (127.0.0.1:47938 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:45:41 ===
+closing AMQP connection <0.7469.1> (127.0.0.1:48420 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:45:53 ===
+accepting AMQP connection <0.10050.1> (127.0.0.1:34208 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:47:30 ===
+closing AMQP connection <0.10050.1> (127.0.0.1:34208 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:47:47 ===
+accepting AMQP connection <0.10987.1> (127.0.0.1:40776 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:48:18 ===
+accepting AMQP connection <0.11241.1> (127.0.0.1:41832 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:49:48 ===
+accepting AMQP connection <0.11981.1> (127.0.0.1:47278 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:50:18 ===
+accepting AMQP connection <0.12236.1> (127.0.0.1:48880 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::20:50:49 ===
+closing AMQP connection <0.10987.1> (127.0.0.1:40776 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:50:49 ===
+closing AMQP connection <0.11981.1> (127.0.0.1:47278 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:50:49 ===
+closing AMQP connection <0.11241.1> (127.0.0.1:41832 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::20:50:49 ===
+closing AMQP connection <0.12236.1> (127.0.0.1:48880 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::20:50:58 ===
+accepting AMQP connection <0.12595.1> (127.0.0.1:50284 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:51:51 ===
+accepting AMQP connection <0.13027.1> (127.0.0.1:52162 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:51:56 ===
+closing AMQP connection <0.13027.1> (127.0.0.1:52162 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:53:36 ===
+accepting AMQP connection <0.13900.1> (127.0.0.1:58462 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:53:37 ===
+accepting AMQP connection <0.13927.1> (127.0.0.1:58498 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::20:55:37 ===
+accepting AMQP connection <0.14910.1> (127.0.0.1:34104 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::21:01:08 ===
+closing AMQP connection <0.12595.1> (127.0.0.1:50284 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::21:01:08 ===
+closing AMQP connection <0.13900.1> (127.0.0.1:58462 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::21:01:08 ===
+closing AMQP connection <0.13927.1> (127.0.0.1:58498 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::21:01:08 ===
+closing AMQP connection <0.14910.1> (127.0.0.1:34104 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::21:03:42 ===
+accepting AMQP connection <0.18820.1> (127.0.0.1:59248 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::21:03:54 ===
+accepting AMQP connection <0.18928.1> (127.0.0.1:59616 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::21:04:28 ===
+accepting AMQP connection <0.19214.1> (127.0.0.1:32824 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::21:04:28 ===
+accepting AMQP connection <0.19225.1> (127.0.0.1:32836 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::21:04:33 ===
+closing AMQP connection <0.19214.1> (127.0.0.1:32824 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::21:05:07 ===
+accepting AMQP connection <0.19563.1> (127.0.0.1:34298 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::21:05:38 ===
+accepting AMQP connection <0.19817.1> (127.0.0.1:36070 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::21:05:38 ===
+closing AMQP connection <0.18820.1> (127.0.0.1:59248 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::21:05:38 ===
+closing AMQP connection <0.18928.1> (127.0.0.1:59616 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::21:05:38 ===
+closing AMQP connection <0.19225.1> (127.0.0.1:32836 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::21:05:38 ===
+closing AMQP connection <0.19817.1> (127.0.0.1:36070 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::21:05:38 ===
+closing AMQP connection <0.19563.1> (127.0.0.1:34298 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::21:06:48 ===
+accepting AMQP connection <0.20405.1> (127.0.0.1:40632 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::21:08:49 ===
+accepting AMQP connection <0.21389.1> (127.0.0.1:45362 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::21:17:02 ===
+closing AMQP connection <0.20405.1> (127.0.0.1:40632 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::21:17:02 ===
+closing AMQP connection <0.21389.1> (127.0.0.1:45362 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::21:17:46 ===
+accepting AMQP connection <0.25764.1> (127.0.0.1:44816 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::21:19:46 ===
+accepting AMQP connection <0.26747.1> (127.0.0.1:52002 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::22:21:53 ===
+closing AMQP connection <0.25764.1> (127.0.0.1:44816 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::22:21:53 ===
+closing AMQP connection <0.26747.1> (127.0.0.1:52002 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::22:22:43 ===
+accepting AMQP connection <0.24588.2> (127.0.0.1:57960 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:23:10 ===
+accepting AMQP connection <0.24821.2> (127.0.0.1:60476 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:23:15 ===
+closing AMQP connection <0.24821.2> (127.0.0.1:60476 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:23:35 ===
+accepting AMQP connection <0.25035.2> (127.0.0.1:32832 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:23:35 ===
+accepting AMQP connection <0.25057.2> (127.0.0.1:32842 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:23:55 ===
+accepting AMQP connection <0.25221.2> (127.0.0.1:33286 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:25:11 ===
+accepting AMQP connection <0.25850.2> (127.0.0.1:34840 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:25:11 ===
+accepting AMQP connection <0.25863.2> (127.0.0.1:34842 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:25:17 ===
+closing AMQP connection <0.25850.2> (127.0.0.1:34840 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:27:12 ===
+accepting AMQP connection <0.26860.2> (127.0.0.1:40278 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::22:31:31 ===
+closing AMQP connection <0.24588.2> (127.0.0.1:57960 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::22:31:31 ===
+closing AMQP connection <0.25863.2> (127.0.0.1:34842 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::22:31:31 ===
+closing AMQP connection <0.25035.2> (127.0.0.1:32832 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::22:31:31 ===
+closing AMQP connection <0.25057.2> (127.0.0.1:32842 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::22:31:31 ===
+closing AMQP connection <0.26860.2> (127.0.0.1:40278 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::22:31:31 ===
+closing AMQP connection <0.25221.2> (127.0.0.1:33286 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::22:36:30 ===
+accepting AMQP connection <0.31401.2> (127.0.0.1:60246 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:38:30 ===
+accepting AMQP connection <0.32396.2> (127.0.0.1:34350 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::22:44:58 ===
+closing AMQP connection <0.31401.2> (127.0.0.1:60246 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::22:44:58 ===
+closing AMQP connection <0.32396.2> (127.0.0.1:34350 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::22:45:17 ===
+accepting AMQP connection <0.2932.3> (127.0.0.1:48572 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:45:52 ===
+accepting AMQP connection <0.3234.3> (127.0.0.1:49290 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:46:35 ===
+accepting AMQP connection <0.3595.3> (127.0.0.1:51264 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:46:40 ===
+closing AMQP connection <0.3595.3> (127.0.0.1:51264 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::22:47:42 ===
+closing AMQP connection <0.2932.3> (127.0.0.1:48572 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::22:47:42 ===
+closing AMQP connection <0.3234.3> (127.0.0.1:49290 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::22:48:12 ===
+accepting AMQP connection <0.4393.3> (127.0.0.1:54978 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:48:55 ===
+accepting AMQP connection <0.4760.3> (127.0.0.1:56068 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:49:00 ===
+closing AMQP connection <0.4760.3> (127.0.0.1:56068 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:49:02 ===
+accepting AMQP connection <0.4829.3> (127.0.0.1:56230 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::22:51:03 ===
+accepting AMQP connection <0.5815.3> (127.0.0.1:33448 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::23:00:27 ===
+closing AMQP connection <0.4393.3> (127.0.0.1:54978 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:00:27 ===
+closing AMQP connection <0.5815.3> (127.0.0.1:33448 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:00:27 ===
+closing AMQP connection <0.4829.3> (127.0.0.1:56230 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::23:00:39 ===
+accepting AMQP connection <0.10510.3> (127.0.0.1:53968 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::23:01:12 ===
+closing AMQP connection <0.10510.3> (127.0.0.1:53968 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::23:01:25 ===
+accepting AMQP connection <0.10896.3> (127.0.0.1:54798 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::23:01:56 ===
+closing AMQP connection <0.10896.3> (127.0.0.1:54798 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::23:02:12 ===
+accepting AMQP connection <0.11293.3> (127.0.0.1:55734 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:04:12 ===
+accepting AMQP connection <0.12278.3> (127.0.0.1:33022 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::23:09:20 ===
+closing AMQP connection <0.12278.3> (127.0.0.1:33022 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:09:20 ===
+closing AMQP connection <0.11293.3> (127.0.0.1:55734 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::23:09:37 ===
+accepting AMQP connection <0.14931.3> (127.0.0.1:42528 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::23:09:51 ===
+closing AMQP connection <0.14931.3> (127.0.0.1:42528 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::23:10:53 ===
+accepting AMQP connection <0.15554.3> (127.0.0.1:46976 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:11:48 ===
+accepting AMQP connection <0.16004.3> (127.0.0.1:47944 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:11:53 ===
+closing AMQP connection <0.16004.3> (127.0.0.1:47944 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:11:54 ===
+accepting AMQP connection <0.16066.3> (127.0.0.1:48066 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:12:58 ===
+accepting AMQP connection <0.16596.3> (127.0.0.1:49170 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:12:58 ===
+accepting AMQP connection <0.16616.3> (127.0.0.1:49174 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:13:20 ===
+accepting AMQP connection <0.16806.3> (127.0.0.1:49552 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:14:20 ===
+accepting AMQP connection <0.17305.3> (127.0.0.1:53692 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:15:20 ===
+accepting AMQP connection <0.17803.3> (127.0.0.1:54788 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:16:21 ===
+accepting AMQP connection <0.18301.3> (127.0.0.1:55918 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::23:47:41 ===
+closing AMQP connection <0.15554.3> (127.0.0.1:46976 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:47:41 ===
+closing AMQP connection <0.16066.3> (127.0.0.1:48066 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:47:41 ===
+closing AMQP connection <0.16596.3> (127.0.0.1:49170 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:47:41 ===
+closing AMQP connection <0.18301.3> (127.0.0.1:55918 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:47:41 ===
+closing AMQP connection <0.16616.3> (127.0.0.1:49174 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:47:41 ===
+closing AMQP connection <0.16806.3> (127.0.0.1:49552 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:47:41 ===
+closing AMQP connection <0.17803.3> (127.0.0.1:54788 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:47:41 ===
+closing AMQP connection <0.17305.3> (127.0.0.1:53692 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::23:48:59 ===
+accepting AMQP connection <0.1427.4> (127.0.0.1:34728 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:49:56 ===
+accepting AMQP connection <0.1909.4> (127.0.0.1:36140 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:50:00 ===
+accepting AMQP connection <0.1952.4> (127.0.0.1:36282 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:50:01 ===
+closing AMQP connection <0.1909.4> (127.0.0.1:36140 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:51:09 ===
+accepting AMQP connection <0.2519.4> (127.0.0.1:41308 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:51:10 ===
+accepting AMQP connection <0.2548.4> (127.0.0.1:41330 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:52:00 ===
+accepting AMQP connection <0.2964.4> (127.0.0.1:42376 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:53:10 ===
+accepting AMQP connection <0.3545.4> (127.0.0.1:44238 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 22-May-2016::23:54:37 ===
+closing AMQP connection <0.1427.4> (127.0.0.1:34728 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:54:37 ===
+closing AMQP connection <0.2519.4> (127.0.0.1:41308 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:54:37 ===
+closing AMQP connection <0.1952.4> (127.0.0.1:36282 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:54:37 ===
+closing AMQP connection <0.2548.4> (127.0.0.1:41330 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:54:37 ===
+closing AMQP connection <0.2964.4> (127.0.0.1:42376 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 22-May-2016::23:54:37 ===
+closing AMQP connection <0.3545.4> (127.0.0.1:44238 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 22-May-2016::23:54:55 ===
+accepting AMQP connection <0.4410.4> (127.0.0.1:49458 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:55:55 ===
+accepting AMQP connection <0.4908.4> (127.0.0.1:50960 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:55:59 ===
+accepting AMQP connection <0.4951.4> (127.0.0.1:51084 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:56:00 ===
+closing AMQP connection <0.4908.4> (127.0.0.1:50960 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:56:10 ===
+accepting AMQP connection <0.5047.4> (127.0.0.1:51354 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 22-May-2016::23:56:11 ===
+accepting AMQP connection <0.5076.4> (127.0.0.1:51360 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::16:44:20 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 23-May-2016::16:44:20 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 23-May-2016::16:44:26 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 23-May-2016::16:44:27 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 23-May-2016::16:44:27 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 23-May-2016::16:44:27 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 23-May-2016::16:44:27 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 23-May-2016::16:44:27 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 23-May-2016::16:44:27 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 23-May-2016::16:44:27 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 23-May-2016::16:44:27 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 23-May-2016::16:44:27 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 23-May-2016::16:44:27 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 23-May-2016::16:44:27 ===
+Statistics database started.
+
+=INFO REPORT==== 23-May-2016::16:44:27 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 23-May-2016::16:44:31 ===
+accepting AMQP connection <0.355.0> (127.0.0.1:38770 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::16:45:12 ===
+closing AMQP connection <0.355.0> (127.0.0.1:38770 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::16:45:45 ===
+accepting AMQP connection <0.959.0> (127.0.0.1:41146 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::16:46:18 ===
+closing AMQP connection <0.959.0> (127.0.0.1:41146 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::16:46:27 ===
+accepting AMQP connection <0.1328.0> (127.0.0.1:42494 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::16:48:17 ===
+closing AMQP connection <0.1328.0> (127.0.0.1:42494 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::16:48:26 ===
+accepting AMQP connection <0.2298.0> (127.0.0.1:49756 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::16:48:49 ===
+closing AMQP connection <0.2298.0> (127.0.0.1:49756 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::16:49:02 ===
+accepting AMQP connection <0.2603.0> (127.0.0.1:50992 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::16:49:12 ===
+closing AMQP connection <0.2603.0> (127.0.0.1:50992 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::16:49:22 ===
+accepting AMQP connection <0.2778.0> (127.0.0.1:51568 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::16:49:32 ===
+closing AMQP connection <0.2778.0> (127.0.0.1:51568 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::16:49:41 ===
+accepting AMQP connection <0.2937.0> (127.0.0.1:52254 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::16:49:53 ===
+closing AMQP connection <0.2937.0> (127.0.0.1:52254 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::16:50:04 ===
+accepting AMQP connection <0.3144.0> (127.0.0.1:53108 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::16:50:16 ===
+closing AMQP connection <0.3144.0> (127.0.0.1:53108 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::16:50:29 ===
+accepting AMQP connection <0.3352.0> (127.0.0.1:54802 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::16:50:45 ===
+closing AMQP connection <0.3352.0> (127.0.0.1:54802 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::16:50:56 ===
+accepting AMQP connection <0.3592.0> (127.0.0.1:58004 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::16:51:11 ===
+closing AMQP connection <0.3592.0> (127.0.0.1:58004 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::16:51:20 ===
+accepting AMQP connection <0.3799.0> (127.0.0.1:58934 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::16:53:21 ===
+accepting AMQP connection <0.4783.0> (127.0.0.1:35106 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::16:59:11 ===
+closing AMQP connection <0.3799.0> (127.0.0.1:58934 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::16:59:11 ===
+closing AMQP connection <0.4783.0> (127.0.0.1:35106 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::16:59:20 ===
+accepting AMQP connection <0.7700.0> (127.0.0.1:55056 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:00:25 ===
+closing AMQP connection <0.7700.0> (127.0.0.1:55056 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:00:39 ===
+accepting AMQP connection <0.8361.0> (127.0.0.1:32904 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:02:26 ===
+closing AMQP connection <0.8361.0> (127.0.0.1:32904 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:02:36 ===
+accepting AMQP connection <0.9314.0> (127.0.0.1:50894 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:03:10 ===
+closing AMQP connection <0.9314.0> (127.0.0.1:50894 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:03:23 ===
+accepting AMQP connection <0.9716.0> (127.0.0.1:56764 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:04:09 ===
+closing AMQP connection <0.9716.0> (127.0.0.1:56764 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:04:19 ===
+accepting AMQP connection <0.10183.0> (127.0.0.1:59934 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:04:49 ===
+closing AMQP connection <0.10183.0> (127.0.0.1:59934 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:05:14 ===
+accepting AMQP connection <0.10633.0> (127.0.0.1:47794 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:06:42 ===
+closing AMQP connection <0.10633.0> (127.0.0.1:47794 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:06:51 ===
+accepting AMQP connection <0.11441.0> (127.0.0.1:48944 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:08:05 ===
+closing AMQP connection <0.11441.0> (127.0.0.1:48944 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:08:14 ===
+accepting AMQP connection <0.12118.0> (127.0.0.1:51880 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:09:14 ===
+closing AMQP connection <0.12118.0> (127.0.0.1:51880 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:09:25 ===
+accepting AMQP connection <0.12715.0> (127.0.0.1:54296 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::17:11:26 ===
+accepting AMQP connection <0.13699.0> (127.0.0.1:33236 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:20:50 ===
+closing AMQP connection <0.12715.0> (127.0.0.1:54296 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::17:20:50 ===
+closing AMQP connection <0.13699.0> (127.0.0.1:33236 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:21:56 ===
+accepting AMQP connection <0.18803.0> (127.0.0.1:36194 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:22:51 ===
+closing AMQP connection <0.18803.0> (127.0.0.1:36194 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:23:04 ===
+accepting AMQP connection <0.19383.0> (127.0.0.1:41500 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:23:52 ===
+closing AMQP connection <0.19383.0> (127.0.0.1:41500 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:24:06 ===
+accepting AMQP connection <0.19883.0> (127.0.0.1:43464 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::17:26:08 ===
+accepting AMQP connection <0.20882.0> (127.0.0.1:53850 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:26:21 ===
+closing AMQP connection <0.19883.0> (127.0.0.1:43464 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::17:26:21 ===
+closing AMQP connection <0.20882.0> (127.0.0.1:53850 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:26:34 ===
+accepting AMQP connection <0.21093.0> (127.0.0.1:42242 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::17:28:35 ===
+accepting AMQP connection <0.22092.0> (127.0.0.1:46912 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:30:11 ===
+closing AMQP connection <0.21093.0> (127.0.0.1:42242 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::17:30:11 ===
+closing AMQP connection <0.22092.0> (127.0.0.1:46912 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:41:35 ===
+accepting AMQP connection <0.28413.0> (127.0.0.1:57866 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::17:43:36 ===
+accepting AMQP connection <0.29416.0> (127.0.0.1:37446 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::17:43:36 ===
+accepting AMQP connection <0.29427.0> (127.0.0.1:37460 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:45:19 ===
+closing AMQP connection <0.28413.0> (127.0.0.1:57866 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::17:45:19 ===
+closing AMQP connection <0.29416.0> (127.0.0.1:37446 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::17:45:19 ===
+closing AMQP connection <0.29427.0> (127.0.0.1:37460 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:45:27 ===
+accepting AMQP connection <0.30336.0> (127.0.0.1:55472 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:46:05 ===
+closing AMQP connection <0.30336.0> (127.0.0.1:55472 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:46:13 ===
+accepting AMQP connection <0.30721.0> (127.0.0.1:38572 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::17:48:13 ===
+accepting AMQP connection <0.31705.0> (127.0.0.1:45880 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:48:59 ===
+closing AMQP connection <0.30721.0> (127.0.0.1:38572 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::17:48:59 ===
+closing AMQP connection <0.31705.0> (127.0.0.1:45880 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:49:09 ===
+accepting AMQP connection <0.32174.0> (127.0.0.1:51594 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::17:51:09 ===
+accepting AMQP connection <0.390.1> (127.0.0.1:37902 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:54:23 ===
+closing AMQP connection <0.32174.0> (127.0.0.1:51594 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::17:54:23 ===
+closing AMQP connection <0.390.1> (127.0.0.1:37902 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:54:33 ===
+accepting AMQP connection <0.2058.1> (127.0.0.1:55104 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::17:54:57 ===
+closing AMQP connection <0.2058.1> (127.0.0.1:55104 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::17:55:07 ===
+accepting AMQP connection <0.2330.1> (127.0.0.1:53000 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::17:57:07 ===
+accepting AMQP connection <0.3326.1> (127.0.0.1:40826 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:01:15 ===
+closing AMQP connection <0.2330.1> (127.0.0.1:53000 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::18:01:15 ===
+closing AMQP connection <0.3326.1> (127.0.0.1:40826 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:01:25 ===
+accepting AMQP connection <0.5419.1> (127.0.0.1:51788 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:02:16 ===
+closing AMQP connection <0.5419.1> (127.0.0.1:51788 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:02:26 ===
+accepting AMQP connection <0.5936.1> (127.0.0.1:57606 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::18:04:27 ===
+accepting AMQP connection <0.6918.1> (127.0.0.1:32900 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:05:09 ===
+closing AMQP connection <0.5936.1> (127.0.0.1:57606 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::18:05:09 ===
+closing AMQP connection <0.6918.1> (127.0.0.1:32900 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:05:19 ===
+accepting AMQP connection <0.7355.1> (127.0.0.1:37638 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:06:01 ===
+closing AMQP connection <0.7355.1> (127.0.0.1:37638 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:06:12 ===
+accepting AMQP connection <0.7802.1> (127.0.0.1:39480 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:07:47 ===
+closing AMQP connection <0.7802.1> (127.0.0.1:39480 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:08:00 ===
+accepting AMQP connection <0.8690.1> (127.0.0.1:52890 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::18:10:00 ===
+accepting AMQP connection <0.9673.1> (127.0.0.1:59418 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:31:03 ===
+closing AMQP connection <0.8690.1> (127.0.0.1:52890 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::18:31:03 ===
+closing AMQP connection <0.9673.1> (127.0.0.1:59418 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:31:13 ===
+accepting AMQP connection <0.19985.1> (127.0.0.1:37822 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:31:57 ===
+closing AMQP connection <0.19985.1> (127.0.0.1:37822 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:32:06 ===
+accepting AMQP connection <0.20420.1> (127.0.0.1:45538 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:32:58 ===
+closing AMQP connection <0.20420.1> (127.0.0.1:45538 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:33:07 ===
+accepting AMQP connection <0.20936.1> (127.0.0.1:47598 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:33:40 ===
+closing AMQP connection <0.20936.1> (127.0.0.1:47598 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:33:48 ===
+accepting AMQP connection <0.21273.1> (127.0.0.1:48740 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::18:35:48 ===
+accepting AMQP connection <0.22257.1> (127.0.0.1:54666 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:35:56 ===
+closing AMQP connection <0.21273.1> (127.0.0.1:48740 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::18:35:56 ===
+closing AMQP connection <0.22257.1> (127.0.0.1:54666 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:36:04 ===
+accepting AMQP connection <0.22401.1> (127.0.0.1:55070 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::18:36:34 ===
+accepting AMQP connection <0.22655.1> (127.0.0.1:55812 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::18:38:35 ===
+accepting AMQP connection <0.23639.1> (127.0.0.1:33626 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:41:09 ===
+closing AMQP connection <0.22401.1> (127.0.0.1:55070 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::18:41:09 ===
+closing AMQP connection <0.23639.1> (127.0.0.1:33626 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::18:41:09 ===
+closing AMQP connection <0.22655.1> (127.0.0.1:55812 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:41:18 ===
+accepting AMQP connection <0.24968.1> (127.0.0.1:44122 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:43:07 ===
+closing AMQP connection <0.24968.1> (127.0.0.1:44122 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:43:16 ===
+accepting AMQP connection <0.25953.1> (127.0.0.1:48644 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:45:14 ===
+closing AMQP connection <0.25953.1> (127.0.0.1:48644 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:45:22 ===
+accepting AMQP connection <0.26972.1> (127.0.0.1:59422 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::18:47:22 ===
+accepting AMQP connection <0.27956.1> (127.0.0.1:34338 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:48:12 ===
+closing AMQP connection <0.26972.1> (127.0.0.1:59422 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::18:48:12 ===
+closing AMQP connection <0.27956.1> (127.0.0.1:34338 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:48:20 ===
+accepting AMQP connection <0.28441.1> (127.0.0.1:38814 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::18:50:21 ===
+accepting AMQP connection <0.29425.1> (127.0.0.1:41916 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:51:01 ===
+closing AMQP connection <0.28441.1> (127.0.0.1:38814 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::18:51:01 ===
+closing AMQP connection <0.29425.1> (127.0.0.1:41916 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:51:11 ===
+accepting AMQP connection <0.29845.1> (127.0.0.1:46318 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:51:21 ===
+closing AMQP connection <0.29845.1> (127.0.0.1:46318 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:51:32 ===
+accepting AMQP connection <0.30036.1> (127.0.0.1:46922 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::18:52:22 ===
+closing AMQP connection <0.30036.1> (127.0.0.1:46922 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::18:52:36 ===
+accepting AMQP connection <0.30567.1> (127.0.0.1:48664 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::18:54:37 ===
+accepting AMQP connection <0.31551.1> (127.0.0.1:54860 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:06:27 ===
+closing AMQP connection <0.30567.1> (127.0.0.1:48664 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:06:27 ===
+closing AMQP connection <0.31551.1> (127.0.0.1:54860 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:12:09 ===
+accepting AMQP connection <0.7328.2> (127.0.0.1:43344 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:13:45 ===
+accepting AMQP connection <0.8119.2> (127.0.0.1:48898 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:14:06 ===
+accepting AMQP connection <0.8292.2> (127.0.0.1:49432 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:14:10 ===
+accepting AMQP connection <0.8357.2> (127.0.0.1:49544 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:14:11 ===
+closing AMQP connection <0.8292.2> (127.0.0.1:49432 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:16:11 ===
+accepting AMQP connection <0.9353.2> (127.0.0.1:52768 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:16:27 ===
+closing AMQP connection <0.7328.2> (127.0.0.1:43344 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:16:27 ===
+closing AMQP connection <0.8357.2> (127.0.0.1:49544 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:16:27 ===
+closing AMQP connection <0.9353.2> (127.0.0.1:52768 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:16:27 ===
+closing AMQP connection <0.8119.2> (127.0.0.1:48898 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:17:28 ===
+accepting AMQP connection <0.9997.2> (127.0.0.1:57864 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:17:49 ===
+accepting AMQP connection <0.10178.2> (127.0.0.1:58424 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:18:35 ===
+accepting AMQP connection <0.10555.2> (127.0.0.1:59710 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:18:39 ===
+accepting AMQP connection <0.10616.2> (127.0.0.1:59880 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:18:40 ===
+closing AMQP connection <0.10555.2> (127.0.0.1:59710 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:20:40 ===
+accepting AMQP connection <0.11604.2> (127.0.0.1:37878 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:21:15 ===
+accepting AMQP connection <0.11898.2> (127.0.0.1:38874 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:21:15 ===
+closing AMQP connection <0.9997.2> (127.0.0.1:57864 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:21:15 ===
+closing AMQP connection <0.11604.2> (127.0.0.1:37878 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:21:15 ===
+closing AMQP connection <0.10178.2> (127.0.0.1:58424 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:21:15 ===
+closing AMQP connection <0.11898.2> (127.0.0.1:38874 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:21:15 ===
+closing AMQP connection <0.10616.2> (127.0.0.1:59880 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:22:02 ===
+accepting AMQP connection <0.12299.2> (127.0.0.1:40130 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:22:38 ===
+accepting AMQP connection <0.12603.2> (127.0.0.1:41178 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:22:42 ===
+accepting AMQP connection <0.12646.2> (127.0.0.1:41310 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:22:43 ===
+closing AMQP connection <0.12603.2> (127.0.0.1:41178 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:23:44 ===
+accepting AMQP connection <0.13163.2> (127.0.0.1:46084 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:23:49 ===
+closing AMQP connection <0.13163.2> (127.0.0.1:46084 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:23:50 ===
+accepting AMQP connection <0.13225.2> (127.0.0.1:46250 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:23:57 ===
+accepting AMQP connection <0.13284.2> (127.0.0.1:46482 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:25:51 ===
+accepting AMQP connection <0.14215.2> (127.0.0.1:49692 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:27:05 ===
+accepting AMQP connection <0.14827.2> (127.0.0.1:54736 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:29:41 ===
+accepting AMQP connection <0.16105.2> (127.0.0.1:34242 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:29:45 ===
+accepting AMQP connection <0.16151.2> (127.0.0.1:34382 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:29:46 ===
+closing AMQP connection <0.16105.2> (127.0.0.1:34242 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:31:05 ===
+closing AMQP connection <0.12299.2> (127.0.0.1:40130 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:31:05 ===
+closing AMQP connection <0.14215.2> (127.0.0.1:49692 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:31:05 ===
+closing AMQP connection <0.13225.2> (127.0.0.1:46250 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:31:05 ===
+closing AMQP connection <0.14827.2> (127.0.0.1:54736 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:31:05 ===
+closing AMQP connection <0.13284.2> (127.0.0.1:46482 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:31:05 ===
+closing AMQP connection <0.16151.2> (127.0.0.1:34382 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:31:05 ===
+closing AMQP connection <0.12646.2> (127.0.0.1:41310 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:31:25 ===
+accepting AMQP connection <0.16986.2> (127.0.0.1:37166 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:32:05 ===
+accepting AMQP connection <0.17321.2> (127.0.0.1:38290 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:32:10 ===
+accepting AMQP connection <0.17380.2> (127.0.0.1:38436 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:32:11 ===
+closing AMQP connection <0.17321.2> (127.0.0.1:38290 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:34:11 ===
+accepting AMQP connection <0.18363.2> (127.0.0.1:44622 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:36:16 ===
+closing AMQP connection <0.16986.2> (127.0.0.1:37166 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:36:16 ===
+closing AMQP connection <0.17380.2> (127.0.0.1:38436 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:36:16 ===
+closing AMQP connection <0.18363.2> (127.0.0.1:44622 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:36:28 ===
+accepting AMQP connection <0.19491.2> (127.0.0.1:51010 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:37:04 ===
+closing AMQP connection <0.19491.2> (127.0.0.1:51010 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:37:15 ===
+accepting AMQP connection <0.19892.2> (127.0.0.1:52232 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:16 ===
+accepting AMQP connection <0.19905.2> (127.0.0.1:52258 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:16 ===
+accepting AMQP connection <0.19919.2> (127.0.0.1:52294 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:17 ===
+accepting AMQP connection <0.19948.2> (127.0.0.1:52298 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:17 ===
+accepting AMQP connection <0.19961.2> (127.0.0.1:52308 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:17 ===
+accepting AMQP connection <0.19974.2> (127.0.0.1:52326 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:18 ===
+accepting AMQP connection <0.19987.2> (127.0.0.1:52340 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:18 ===
+accepting AMQP connection <0.20000.2> (127.0.0.1:52348 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:18 ===
+accepting AMQP connection <0.20014.2> (127.0.0.1:52356 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:19 ===
+accepting AMQP connection <0.20042.2> (127.0.0.1:52370 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:19 ===
+accepting AMQP connection <0.20055.2> (127.0.0.1:52380 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:19 ===
+accepting AMQP connection <0.20068.2> (127.0.0.1:52390 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:20 ===
+accepting AMQP connection <0.20081.2> (127.0.0.1:52400 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:20 ===
+accepting AMQP connection <0.20094.2> (127.0.0.1:52406 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:20 ===
+accepting AMQP connection <0.20108.2> (127.0.0.1:52416 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:21 ===
+accepting AMQP connection <0.20121.2> (127.0.0.1:52424 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:21 ===
+accepting AMQP connection <0.20149.2> (127.0.0.1:52438 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:21 ===
+accepting AMQP connection <0.20162.2> (127.0.0.1:52440 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:22 ===
+accepting AMQP connection <0.20175.2> (127.0.0.1:52448 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:22 ===
+accepting AMQP connection <0.20188.2> (127.0.0.1:52466 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:22 ===
+accepting AMQP connection <0.20202.2> (127.0.0.1:52492 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:23 ===
+accepting AMQP connection <0.20230.2> (127.0.0.1:52508 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:23 ===
+accepting AMQP connection <0.20243.2> (127.0.0.1:52516 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:23 ===
+accepting AMQP connection <0.20256.2> (127.0.0.1:52520 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:24 ===
+accepting AMQP connection <0.20269.2> (127.0.0.1:52542 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:24 ===
+accepting AMQP connection <0.20282.2> (127.0.0.1:52550 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:24 ===
+accepting AMQP connection <0.20296.2> (127.0.0.1:52560 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:25 ===
+accepting AMQP connection <0.20324.2> (127.0.0.1:52568 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:25 ===
+accepting AMQP connection <0.20337.2> (127.0.0.1:52574 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:26 ===
+accepting AMQP connection <0.20351.2> (127.0.0.1:52594 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:26 ===
+accepting AMQP connection <0.20364.2> (127.0.0.1:52598 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:26 ===
+accepting AMQP connection <0.20377.2> (127.0.0.1:52616 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:26 ===
+accepting AMQP connection <0.20391.2> (127.0.0.1:52630 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:27 ===
+accepting AMQP connection <0.20404.2> (127.0.0.1:52644 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:27 ===
+accepting AMQP connection <0.20433.2> (127.0.0.1:52650 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:27 ===
+accepting AMQP connection <0.20446.2> (127.0.0.1:52656 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:27 ===
+accepting AMQP connection <0.20459.2> (127.0.0.1:52674 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:28 ===
+accepting AMQP connection <0.20472.2> (127.0.0.1:52678 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:28 ===
+accepting AMQP connection <0.20485.2> (127.0.0.1:52698 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:29 ===
+accepting AMQP connection <0.20499.2> (127.0.0.1:52706 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:29 ===
+accepting AMQP connection <0.20527.2> (127.0.0.1:52712 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:29 ===
+accepting AMQP connection <0.20540.2> (127.0.0.1:52716 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:29 ===
+accepting AMQP connection <0.20553.2> (127.0.0.1:52730 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:30 ===
+accepting AMQP connection <0.20566.2> (127.0.0.1:52744 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:30 ===
+accepting AMQP connection <0.20579.2> (127.0.0.1:52752 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:30 ===
+accepting AMQP connection <0.20592.2> (127.0.0.1:52756 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:30 ===
+accepting AMQP connection <0.20606.2> (127.0.0.1:52762 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:31 ===
+accepting AMQP connection <0.20634.2> (127.0.0.1:52772 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:31 ===
+accepting AMQP connection <0.20647.2> (127.0.0.1:52778 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:32 ===
+accepting AMQP connection <0.20660.2> (127.0.0.1:52786 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:32 ===
+accepting AMQP connection <0.20673.2> (127.0.0.1:52804 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:33 ===
+accepting AMQP connection <0.20687.2> (127.0.0.1:52826 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:33 ===
+accepting AMQP connection <0.20715.2> (127.0.0.1:52830 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:33 ===
+accepting AMQP connection <0.20728.2> (127.0.0.1:52844 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:34 ===
+accepting AMQP connection <0.20741.2> (127.0.0.1:52858 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:34 ===
+accepting AMQP connection <0.20754.2> (127.0.0.1:52866 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:37:34 ===
+accepting AMQP connection <0.20767.2> (127.0.0.1:52876 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.19892.2> (127.0.0.1:52232 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.19905.2> (127.0.0.1:52258 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.19919.2> (127.0.0.1:52294 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20162.2> (127.0.0.1:52440 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20149.2> (127.0.0.1:52438 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20121.2> (127.0.0.1:52424 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.19948.2> (127.0.0.1:52298 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.19961.2> (127.0.0.1:52308 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.19974.2> (127.0.0.1:52326 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.19987.2> (127.0.0.1:52340 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20000.2> (127.0.0.1:52348 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20014.2> (127.0.0.1:52356 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20042.2> (127.0.0.1:52370 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20094.2> (127.0.0.1:52406 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20068.2> (127.0.0.1:52390 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20108.2> (127.0.0.1:52416 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20081.2> (127.0.0.1:52400 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20188.2> (127.0.0.1:52466 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20175.2> (127.0.0.1:52448 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20055.2> (127.0.0.1:52380 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20202.2> (127.0.0.1:52492 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20230.2> (127.0.0.1:52508 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20243.2> (127.0.0.1:52516 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20256.2> (127.0.0.1:52520 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20269.2> (127.0.0.1:52542 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20282.2> (127.0.0.1:52550 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20296.2> (127.0.0.1:52560 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20337.2> (127.0.0.1:52574 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20324.2> (127.0.0.1:52568 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20351.2> (127.0.0.1:52594 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20377.2> (127.0.0.1:52616 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20364.2> (127.0.0.1:52598 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20391.2> (127.0.0.1:52630 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20404.2> (127.0.0.1:52644 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20446.2> (127.0.0.1:52656 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20472.2> (127.0.0.1:52678 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20459.2> (127.0.0.1:52674 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20485.2> (127.0.0.1:52698 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20499.2> (127.0.0.1:52706 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20527.2> (127.0.0.1:52712 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20433.2> (127.0.0.1:52650 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20553.2> (127.0.0.1:52730 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20566.2> (127.0.0.1:52744 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20592.2> (127.0.0.1:52756 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20634.2> (127.0.0.1:52772 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20647.2> (127.0.0.1:52778 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20673.2> (127.0.0.1:52804 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20715.2> (127.0.0.1:52830 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20728.2> (127.0.0.1:52844 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20741.2> (127.0.0.1:52858 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20754.2> (127.0.0.1:52866 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20767.2> (127.0.0.1:52876 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20579.2> (127.0.0.1:52752 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20606.2> (127.0.0.1:52762 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20660.2> (127.0.0.1:52786 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20540.2> (127.0.0.1:52716 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:37:34 ===
+closing AMQP connection <0.20687.2> (127.0.0.1:52826 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:42:12 ===
+accepting AMQP connection <0.23038.2> (127.0.0.1:38212 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:44:12 ===
+accepting AMQP connection <0.24023.2> (127.0.0.1:42262 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:44:39 ===
+closing AMQP connection <0.23038.2> (127.0.0.1:38212 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:44:39 ===
+closing AMQP connection <0.24023.2> (127.0.0.1:42262 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:45:17 ===
+accepting AMQP connection <0.24558.2> (127.0.0.1:44852 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:47:17 ===
+accepting AMQP connection <0.25544.2> (127.0.0.1:50226 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:48:11 ===
+closing AMQP connection <0.24558.2> (127.0.0.1:44852 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::19:48:11 ===
+closing AMQP connection <0.25544.2> (127.0.0.1:50226 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:48:20 ===
+accepting AMQP connection <0.26078.2> (127.0.0.1:52028 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:48:36 ===
+closing AMQP connection <0.26078.2> (127.0.0.1:52028 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:48:46 ===
+accepting AMQP connection <0.26303.2> (127.0.0.1:55776 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:49:37 ===
+closing AMQP connection <0.26303.2> (127.0.0.1:55776 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:49:46 ===
+accepting AMQP connection <0.26803.2> (127.0.0.1:57366 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:51:14 ===
+closing AMQP connection <0.26803.2> (127.0.0.1:57366 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:51:27 ===
+accepting AMQP connection <0.27629.2> (127.0.0.1:60022 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:52:54 ===
+closing AMQP connection <0.27629.2> (127.0.0.1:60022 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:53:02 ===
+accepting AMQP connection <0.28404.2> (127.0.0.1:37288 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::19:53:21 ===
+closing AMQP connection <0.28404.2> (127.0.0.1:37288 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::19:53:29 ===
+accepting AMQP connection <0.28646.2> (127.0.0.1:38062 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:54:41 ===
+accepting AMQP connection <0.29241.2> (127.0.0.1:39874 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:56:41 ===
+accepting AMQP connection <0.30227.2> (127.0.0.1:45954 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:58:33 ===
+accepting AMQP connection <0.31131.2> (127.0.0.1:52042 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:58:36 ===
+accepting AMQP connection <0.31174.2> (127.0.0.1:52128 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::19:58:38 ===
+closing AMQP connection <0.31131.2> (127.0.0.1:52042 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:00:15 ===
+accepting AMQP connection <0.31983.2> (127.0.0.1:54706 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:00:19 ===
+accepting AMQP connection <0.32026.2> (127.0.0.1:54868 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:00:20 ===
+closing AMQP connection <0.31983.2> (127.0.0.1:54706 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:00:33 ===
+accepting AMQP connection <0.32154.2> (127.0.0.1:55236 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:00:33 ===
+accepting AMQP connection <0.32167.2> (127.0.0.1:55242 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::20:01:43 ===
+closing AMQP connection <0.28646.2> (127.0.0.1:38062 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:01:43 ===
+closing AMQP connection <0.30227.2> (127.0.0.1:45954 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:01:43 ===
+closing AMQP connection <0.31174.2> (127.0.0.1:52128 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:01:43 ===
+closing AMQP connection <0.29241.2> (127.0.0.1:39874 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:01:43 ===
+closing AMQP connection <0.32154.2> (127.0.0.1:55236 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:01:43 ===
+closing AMQP connection <0.32026.2> (127.0.0.1:54868 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:01:43 ===
+closing AMQP connection <0.32167.2> (127.0.0.1:55242 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::20:02:12 ===
+accepting AMQP connection <0.216.3> (127.0.0.1:32776 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:03:00 ===
+accepting AMQP connection <0.618.3> (127.0.0.1:34038 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:03:05 ===
+accepting AMQP connection <0.678.3> (127.0.0.1:34148 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:03:05 ===
+closing AMQP connection <0.618.3> (127.0.0.1:34038 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:04:04 ===
+accepting AMQP connection <0.1162.3> (127.0.0.1:35794 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:04:09 ===
+accepting AMQP connection <0.1221.3> (127.0.0.1:35988 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:04:09 ===
+closing AMQP connection <0.1162.3> (127.0.0.1:35794 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:05:43 ===
+accepting AMQP connection <0.1998.3> (127.0.0.1:41510 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:05:43 ===
+accepting AMQP connection <0.2011.3> (127.0.0.1:41514 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:06:09 ===
+accepting AMQP connection <0.2233.3> (127.0.0.1:42188 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:07:44 ===
+accepting AMQP connection <0.3007.3> (127.0.0.1:46350 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::20:09:52 ===
+closing AMQP connection <0.216.3> (127.0.0.1:32776 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:09:52 ===
+closing AMQP connection <0.1998.3> (127.0.0.1:41510 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:09:52 ===
+closing AMQP connection <0.2011.3> (127.0.0.1:41514 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:09:52 ===
+closing AMQP connection <0.678.3> (127.0.0.1:34148 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:09:52 ===
+closing AMQP connection <0.1221.3> (127.0.0.1:35988 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:09:52 ===
+closing AMQP connection <0.3007.3> (127.0.0.1:46350 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:09:52 ===
+closing AMQP connection <0.2233.3> (127.0.0.1:42188 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::20:10:01 ===
+accepting AMQP connection <0.4151.3> (127.0.0.1:51358 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::20:10:25 ===
+closing AMQP connection <0.4151.3> (127.0.0.1:51358 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::20:10:34 ===
+accepting AMQP connection <0.4424.3> (127.0.0.1:52168 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::20:11:09 ===
+closing AMQP connection <0.4424.3> (127.0.0.1:52168 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::20:11:17 ===
+accepting AMQP connection <0.4793.3> (127.0.0.1:56278 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::20:11:44 ===
+closing AMQP connection <0.4793.3> (127.0.0.1:56278 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::20:12:05 ===
+accepting AMQP connection <0.5181.3> (127.0.0.1:57478 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::20:12:38 ===
+closing AMQP connection <0.5181.3> (127.0.0.1:57478 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::20:12:47 ===
+accepting AMQP connection <0.5551.3> (127.0.0.1:58746 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:14:48 ===
+accepting AMQP connection <0.6537.3> (127.0.0.1:36882 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 23-May-2016::20:17:48 ===
+closing AMQP connection <0.5551.3> (127.0.0.1:58746 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 23-May-2016::20:17:48 ===
+closing AMQP connection <0.6537.3> (127.0.0.1:36882 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 23-May-2016::20:17:57 ===
+accepting AMQP connection <0.8079.3> (127.0.0.1:45282 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:18:41 ===
+accepting AMQP connection <0.8447.3> (127.0.0.1:46488 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:18:45 ===
+accepting AMQP connection <0.8491.3> (127.0.0.1:46590 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:18:46 ===
+closing AMQP connection <0.8447.3> (127.0.0.1:46488 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:18:53 ===
+accepting AMQP connection <0.8569.3> (127.0.0.1:46832 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:18:53 ===
+accepting AMQP connection <0.8582.3> (127.0.0.1:46838 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:20:46 ===
+accepting AMQP connection <0.9503.3> (127.0.0.1:52892 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 23-May-2016::20:20:53 ===
+accepting AMQP connection <0.9578.3> (127.0.0.1:53460 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::07:23:35 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 24-May-2016::07:23:35 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 24-May-2016::07:23:39 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 24-May-2016::07:23:39 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 24-May-2016::07:23:39 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 24-May-2016::07:23:39 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 24-May-2016::07:23:39 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 24-May-2016::07:23:40 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 24-May-2016::07:23:40 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 24-May-2016::07:23:40 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 24-May-2016::07:23:40 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 24-May-2016::07:23:40 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 24-May-2016::07:23:40 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 24-May-2016::07:23:40 ===
+Statistics database started.
+
+=INFO REPORT==== 24-May-2016::07:23:40 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 24-May-2016::09:38:34 ===
+accepting AMQP connection <0.223.2> (127.0.0.1:45568 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::09:38:55 ===
+accepting AMQP connection <0.417.2> (127.0.0.1:46700 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::09:39:14 ===
+accepting AMQP connection <0.574.2> (127.0.0.1:50674 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::09:39:28 ===
+closing AMQP connection <0.223.2> (127.0.0.1:45568 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::09:39:28 ===
+closing AMQP connection <0.417.2> (127.0.0.1:46700 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::09:39:28 ===
+closing AMQP connection <0.574.2> (127.0.0.1:50674 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::09:42:43 ===
+accepting AMQP connection <0.2292.2> (127.0.0.1:36628 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::09:43:14 ===
+closing AMQP connection <0.2292.2> (127.0.0.1:36628 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::09:54:46 ===
+accepting AMQP connection <0.8150.2> (127.0.0.1:59414 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::09:55:07 ===
+closing AMQP connection <0.8150.2> (127.0.0.1:59414 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::09:56:31 ===
+accepting AMQP connection <0.9022.2> (127.0.0.1:40152 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::09:56:37 ===
+closing AMQP connection <0.9022.2> (127.0.0.1:40152 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::09:57:32 ===
+accepting AMQP connection <0.9524.2> (127.0.0.1:42990 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::09:57:38 ===
+closing AMQP connection <0.9524.2> (127.0.0.1:42990 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::09:57:59 ===
+accepting AMQP connection <0.9763.2> (127.0.0.1:44624 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::19:29:21 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 24-May-2016::19:29:21 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 24-May-2016::19:29:27 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+Statistics database started.
+
+=INFO REPORT==== 24-May-2016::19:29:27 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 24-May-2016::19:29:33 ===
+accepting AMQP connection <0.371.0> (127.0.0.1:37596 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::19:31:33 ===
+accepting AMQP connection <0.1361.0> (127.0.0.1:44358 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::19:33:02 ===
+accepting AMQP connection <0.2086.0> (127.0.0.1:46514 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::19:35:02 ===
+accepting AMQP connection <0.3073.0> (127.0.0.1:52420 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::19:37:04 ===
+closing AMQP connection <0.371.0> (127.0.0.1:37596 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::19:37:04 ===
+closing AMQP connection <0.1361.0> (127.0.0.1:44358 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::19:37:04 ===
+closing AMQP connection <0.3073.0> (127.0.0.1:52420 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::19:37:04 ===
+closing AMQP connection <0.2086.0> (127.0.0.1:46514 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::19:37:20 ===
+accepting AMQP connection <0.4194.0> (127.0.0.1:55886 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::19:39:20 ===
+accepting AMQP connection <0.5178.0> (127.0.0.1:33598 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::19:43:39 ===
+closing AMQP connection <0.4194.0> (127.0.0.1:55886 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::19:43:39 ===
+closing AMQP connection <0.5178.0> (127.0.0.1:33598 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::19:43:49 ===
+accepting AMQP connection <0.7382.0> (127.0.0.1:44094 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::19:44:01 ===
+accepting AMQP connection <0.7494.0> (127.0.0.1:46842 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::19:44:47 ===
+accepting AMQP connection <0.7879.0> (127.0.0.1:48046 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::19:44:52 ===
+accepting AMQP connection <0.7938.0> (127.0.0.1:48172 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::19:44:52 ===
+closing AMQP connection <0.7879.0> (127.0.0.1:48046 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::19:46:49 ===
+accepting AMQP connection <0.8904.0> (127.0.0.1:51306 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::19:46:49 ===
+closing AMQP connection <0.7382.0> (127.0.0.1:44094 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::19:46:49 ===
+closing AMQP connection <0.7938.0> (127.0.0.1:48172 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::19:46:49 ===
+closing AMQP connection <0.8904.0> (127.0.0.1:51306 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::19:46:49 ===
+closing AMQP connection <0.7494.0> (127.0.0.1:46842 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::21:29:29 ===
+accepting AMQP connection <0.26019.1> (127.0.0.1:48466 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::21:32:02 ===
+closing AMQP connection <0.26019.1> (127.0.0.1:48466 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::21:32:16 ===
+accepting AMQP connection <0.27392.1> (127.0.0.1:52850 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::21:32:59 ===
+accepting AMQP connection <0.27745.1> (127.0.0.1:56178 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::21:34:41 ===
+closing AMQP connection <0.27392.1> (127.0.0.1:52850 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::21:34:41 ===
+closing AMQP connection <0.27745.1> (127.0.0.1:56178 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::21:35:00 ===
+accepting AMQP connection <0.28748.1> (127.0.0.1:58858 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::21:37:00 ===
+accepting AMQP connection <0.29731.1> (127.0.0.1:36216 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::23:26:22 ===
+closing AMQP connection <0.28748.1> (127.0.0.1:58858 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:26:22 ===
+closing AMQP connection <0.29731.1> (127.0.0.1:36216 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::23:33:45 ===
+accepting AMQP connection <0.20985.3> (127.0.0.1:46720 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:34:38 ===
+accepting AMQP connection <0.21438.3> (127.0.0.1:47502 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:34:43 ===
+closing AMQP connection <0.21438.3> (127.0.0.1:47502 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:34:44 ===
+accepting AMQP connection <0.21500.3> (127.0.0.1:47580 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:35:08 ===
+accepting AMQP connection <0.21705.3> (127.0.0.1:47976 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::23:41:19 ===
+closing AMQP connection <0.20985.3> (127.0.0.1:46720 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:41:19 ===
+closing AMQP connection <0.21500.3> (127.0.0.1:47580 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:41:19 ===
+closing AMQP connection <0.21705.3> (127.0.0.1:47976 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::23:41:28 ===
+accepting AMQP connection <0.24798.3> (127.0.0.1:59848 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::23:41:28 ===
+closing AMQP connection <0.24798.3> (127.0.0.1:59848 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::23:44:43 ===
+accepting AMQP connection <0.26406.3> (127.0.0.1:37600 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::23:44:43 ===
+closing AMQP connection <0.26406.3> (127.0.0.1:37600 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::23:45:22 ===
+accepting AMQP connection <0.26731.3> (127.0.0.1:38170 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:45:27 ===
+accepting AMQP connection <0.26790.3> (127.0.0.1:38260 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:46:47 ===
+accepting AMQP connection <0.27451.3> (127.0.0.1:42446 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:46:52 ===
+closing AMQP connection <0.27451.3> (127.0.0.1:42446 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:46:54 ===
+accepting AMQP connection <0.27513.3> (127.0.0.1:42578 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:48:32 ===
+accepting AMQP connection <0.28321.3> (127.0.0.1:44062 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:50:20 ===
+accepting AMQP connection <0.29208.3> (127.0.0.1:48756 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:51:18 ===
+accepting AMQP connection <0.29690.3> (127.0.0.1:49626 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:51:23 ===
+closing AMQP connection <0.29690.3> (127.0.0.1:49626 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:51:24 ===
+accepting AMQP connection <0.29752.3> (127.0.0.1:49706 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:52:27 ===
+accepting AMQP connection <0.30266.3> (127.0.0.1:53574 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::23:53:12 ===
+closing AMQP connection <0.28321.3> (127.0.0.1:44062 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:53:12 ===
+closing AMQP connection <0.26731.3> (127.0.0.1:38170 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:53:12 ===
+closing AMQP connection <0.26790.3> (127.0.0.1:38260 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:53:12 ===
+closing AMQP connection <0.29208.3> (127.0.0.1:48756 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:53:12 ===
+closing AMQP connection <0.27513.3> (127.0.0.1:42578 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:53:12 ===
+closing AMQP connection <0.29752.3> (127.0.0.1:49706 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:53:12 ===
+closing AMQP connection <0.30266.3> (127.0.0.1:53574 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::23:53:21 ===
+accepting AMQP connection <0.30730.3> (127.0.0.1:54394 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:54:07 ===
+accepting AMQP connection <0.31115.3> (127.0.0.1:55084 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:54:12 ===
+accepting AMQP connection <0.31158.3> (127.0.0.1:55164 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:54:12 ===
+closing AMQP connection <0.31115.3> (127.0.0.1:55084 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::23:55:48 ===
+closing AMQP connection <0.30730.3> (127.0.0.1:54394 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:55:48 ===
+closing AMQP connection <0.31158.3> (127.0.0.1:55164 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::23:56:26 ===
+accepting AMQP connection <0.32264.3> (127.0.0.1:60118 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:57:09 ===
+accepting AMQP connection <0.32632.3> (127.0.0.1:60734 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:57:14 ===
+closing AMQP connection <0.32632.3> (127.0.0.1:60734 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:57:15 ===
+accepting AMQP connection <0.32693.3> (127.0.0.1:60812 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-May-2016::23:57:20 ===
+accepting AMQP connection <0.32737.3> (127.0.0.1:60914 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::23:58:44 ===
+closing AMQP connection <0.32693.3> (127.0.0.1:60812 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:58:44 ===
+closing AMQP connection <0.32264.3> (127.0.0.1:60118 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 24-May-2016::23:58:44 ===
+closing AMQP connection <0.32737.3> (127.0.0.1:60914 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::23:58:55 ===
+accepting AMQP connection <0.764.4> (127.0.0.1:36914 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 24-May-2016::23:59:37 ===
+closing AMQP connection <0.764.4> (127.0.0.1:36914 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 24-May-2016::23:59:46 ===
+accepting AMQP connection <0.1185.4> (127.0.0.1:37656 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::00:00:42 ===
+accepting AMQP connection <0.1651.4> (127.0.0.1:38622 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::00:00:47 ===
+closing AMQP connection <0.1651.4> (127.0.0.1:38622 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::00:00:47 ===
+accepting AMQP connection <0.1712.4> (127.0.0.1:38700 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::00:01:06 ===
+accepting AMQP connection <0.1869.4> (127.0.0.1:39016 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::08:03:08 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 25-May-2016::08:03:08 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 25-May-2016::08:03:14 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+Statistics database started.
+
+=INFO REPORT==== 25-May-2016::08:03:14 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 25-May-2016::08:03:26 ===
+accepting AMQP connection <0.421.0> (127.0.0.1:50726 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::08:04:33 ===
+accepting AMQP connection <0.972.0> (127.0.0.1:54040 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:42:39 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 25-May-2016::16:42:39 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 25-May-2016::16:42:45 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 25-May-2016::16:42:45 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 25-May-2016::16:42:46 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 25-May-2016::16:42:46 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 25-May-2016::16:42:46 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 25-May-2016::16:42:46 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 25-May-2016::16:42:46 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 25-May-2016::16:42:46 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 25-May-2016::16:42:46 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 25-May-2016::16:42:46 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 25-May-2016::16:42:46 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 25-May-2016::16:42:46 ===
+Statistics database started.
+
+=INFO REPORT==== 25-May-2016::16:42:46 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 25-May-2016::16:43:31 ===
+accepting AMQP connection <0.682.0> (127.0.0.1:49206 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:44:27 ===
+accepting AMQP connection <0.1151.0> (127.0.0.1:33274 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:45:34 ===
+accepting AMQP connection <0.1716.0> (127.0.0.1:44022 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:45:39 ===
+closing AMQP connection <0.1716.0> (127.0.0.1:44022 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:45:42 ===
+accepting AMQP connection <0.1819.0> (127.0.0.1:45360 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::16:47:43 ===
+closing AMQP connection <0.682.0> (127.0.0.1:49206 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::16:47:43 ===
+closing AMQP connection <0.1151.0> (127.0.0.1:33274 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::16:47:43 ===
+closing AMQP connection <0.1819.0> (127.0.0.1:45360 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::16:48:02 ===
+accepting AMQP connection <0.2970.0> (127.0.0.1:43030 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:48:02 ===
+accepting AMQP connection <0.2981.0> (127.0.0.1:43054 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:48:22 ===
+accepting AMQP connection <0.3141.0> (127.0.0.1:46242 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:49:28 ===
+accepting AMQP connection <0.3684.0> (127.0.0.1:56840 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:49:33 ===
+closing AMQP connection <0.3684.0> (127.0.0.1:56840 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:49:34 ===
+accepting AMQP connection <0.3762.0> (127.0.0.1:57996 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:52:16 ===
+accepting AMQP connection <0.5073.0> (127.0.0.1:59106 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:53:50 ===
+accepting AMQP connection <0.5846.0> (127.0.0.1:45878 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:53:55 ===
+closing AMQP connection <0.5846.0> (127.0.0.1:45878 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:53:58 ===
+accepting AMQP connection <0.5924.0> (127.0.0.1:48492 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:54:01 ===
+accepting AMQP connection <0.5964.0> (127.0.0.1:49430 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:56:18 ===
+accepting AMQP connection <0.7078.0> (127.0.0.1:44626 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:56:33 ===
+accepting AMQP connection <0.7219.0> (127.0.0.1:47124 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::16:57:28 ===
+accepting AMQP connection <0.7667.0> (127.0.0.1:59264 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:21:54 ===
+accepting AMQP connection <0.12303.2> (127.0.0.1:48128 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::19:28:51 ===
+closing AMQP connection <0.2970.0> (127.0.0.1:43030 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:28:51 ===
+closing AMQP connection <0.3141.0> (127.0.0.1:46242 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:28:51 ===
+closing AMQP connection <0.5924.0> (127.0.0.1:48492 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:28:51 ===
+closing AMQP connection <0.2981.0> (127.0.0.1:43054 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:28:51 ===
+closing AMQP connection <0.7219.0> (127.0.0.1:47124 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:28:51 ===
+closing AMQP connection <0.7667.0> (127.0.0.1:59264 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:28:51 ===
+closing AMQP connection <0.5964.0> (127.0.0.1:49430 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:28:51 ===
+closing AMQP connection <0.3762.0> (127.0.0.1:57996 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:28:51 ===
+closing AMQP connection <0.7078.0> (127.0.0.1:44626 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:28:51 ===
+closing AMQP connection <0.5073.0> (127.0.0.1:59106 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:28:51 ===
+closing AMQP connection <0.12303.2> (127.0.0.1:48128 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::19:29:06 ===
+accepting AMQP connection <0.15843.2> (127.0.0.1:39228 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:29:34 ===
+accepting AMQP connection <0.16080.2> (127.0.0.1:44694 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:32:03 ===
+accepting AMQP connection <0.17295.2> (127.0.0.1:41996 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:36:34 ===
+accepting AMQP connection <0.19512.2> (127.0.0.1:34632 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:37:49 ===
+accepting AMQP connection <0.20128.2> (127.0.0.1:46938 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:37:54 ===
+accepting AMQP connection <0.20186.2> (127.0.0.1:47726 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:37:54 ===
+closing AMQP connection <0.20128.2> (127.0.0.1:46938 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:40:14 ===
+accepting AMQP connection <0.21335.2> (127.0.0.1:44848 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::19:46:14 ===
+closing AMQP connection <0.20186.2> (127.0.0.1:47726 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:46:14 ===
+closing AMQP connection <0.17295.2> (127.0.0.1:41996 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:46:14 ===
+closing AMQP connection <0.15843.2> (127.0.0.1:39228 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:46:14 ===
+closing AMQP connection <0.19512.2> (127.0.0.1:34632 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:46:14 ===
+closing AMQP connection <0.16080.2> (127.0.0.1:44694 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:46:14 ===
+closing AMQP connection <0.21335.2> (127.0.0.1:44848 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::19:46:37 ===
+accepting AMQP connection <0.24461.2> (127.0.0.1:48214 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:47:31 ===
+accepting AMQP connection <0.24910.2> (127.0.0.1:50836 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:47:36 ===
+closing AMQP connection <0.24910.2> (127.0.0.1:50836 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:47:39 ===
+accepting AMQP connection <0.25008.2> (127.0.0.1:51208 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:47:44 ===
+accepting AMQP connection <0.25066.2> (127.0.0.1:51470 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:48:57 ===
+accepting AMQP connection <0.25665.2> (127.0.0.1:54938 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:49:02 ===
+closing AMQP connection <0.25665.2> (127.0.0.1:54938 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:49:03 ===
+accepting AMQP connection <0.25726.2> (127.0.0.1:56840 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:49:55 ===
+accepting AMQP connection <0.26159.2> (127.0.0.1:60582 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:50:00 ===
+closing AMQP connection <0.26159.2> (127.0.0.1:60582 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:50:03 ===
+accepting AMQP connection <0.26237.2> (127.0.0.1:60878 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:50:14 ===
+accepting AMQP connection <0.26330.2> (127.0.0.1:33188 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:51:44 ===
+accepting AMQP connection <0.27072.2> (127.0.0.1:37702 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::19:57:25 ===
+closing AMQP connection <0.26237.2> (127.0.0.1:60878 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:57:25 ===
+closing AMQP connection <0.24461.2> (127.0.0.1:48214 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:57:25 ===
+closing AMQP connection <0.25008.2> (127.0.0.1:51208 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:57:25 ===
+closing AMQP connection <0.25066.2> (127.0.0.1:51470 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:57:25 ===
+closing AMQP connection <0.25726.2> (127.0.0.1:56840 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:57:25 ===
+closing AMQP connection <0.26330.2> (127.0.0.1:33188 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::19:57:25 ===
+closing AMQP connection <0.27072.2> (127.0.0.1:37702 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::19:57:40 ===
+accepting AMQP connection <0.29989.2> (127.0.0.1:33252 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:58:24 ===
+accepting AMQP connection <0.30356.2> (127.0.0.1:35394 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:58:29 ===
+closing AMQP connection <0.30356.2> (127.0.0.1:35394 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:58:32 ===
+accepting AMQP connection <0.30434.2> (127.0.0.1:35810 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:59:38 ===
+accepting AMQP connection <0.30980.2> (127.0.0.1:42256 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:59:43 ===
+closing AMQP connection <0.30980.2> (127.0.0.1:42256 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::19:59:45 ===
+accepting AMQP connection <0.31044.2> (127.0.0.1:42604 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:00:00 ===
+accepting AMQP connection <0.31184.2> (127.0.0.1:43338 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:05:51 ===
+accepting AMQP connection <0.1270.3> (127.0.0.1:39290 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:06:19 ===
+accepting AMQP connection <0.1508.3> (127.0.0.1:40654 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:09:29 ===
+accepting AMQP connection <0.3061.3> (127.0.0.1:53114 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:14:45 ===
+accepting AMQP connection <0.5639.3> (127.0.0.1:43958 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:14:49 ===
+accepting AMQP connection <0.5682.3> (127.0.0.1:44194 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:14:50 ===
+closing AMQP connection <0.5639.3> (127.0.0.1:43958 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:19:54 ===
+accepting AMQP connection <0.8165.3> (127.0.0.1:38028 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:21:03 ===
+accepting AMQP connection <0.8738.3> (127.0.0.1:41456 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:21:08 ===
+closing AMQP connection <0.8738.3> (127.0.0.1:41456 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:21:11 ===
+accepting AMQP connection <0.8821.3> (127.0.0.1:41866 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:21:59 ===
+accepting AMQP connection <0.9223.3> (127.0.0.1:47718 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:22:37 ===
+accepting AMQP connection <0.9526.3> (127.0.0.1:49676 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:22:41 ===
+accepting AMQP connection <0.9585.3> (127.0.0.1:49922 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:22:42 ===
+closing AMQP connection <0.9526.3> (127.0.0.1:49676 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:23:47 ===
+accepting AMQP connection <0.10135.3> (127.0.0.1:53374 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:24:47 ===
+accepting AMQP connection <0.10618.3> (127.0.0.1:59660 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:25:06 ===
+accepting AMQP connection <0.10791.3> (127.0.0.1:60622 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:25:29 ===
+accepting AMQP connection <0.10980.3> (127.0.0.1:33496 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:25:34 ===
+closing AMQP connection <0.10980.3> (127.0.0.1:33496 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:25:36 ===
+accepting AMQP connection <0.11058.3> (127.0.0.1:33848 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.1270.3> (127.0.0.1:39290 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.30434.2> (127.0.0.1:35810 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.29989.2> (127.0.0.1:33252 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.9223.3> (127.0.0.1:47718 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.31184.2> (127.0.0.1:43338 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.8165.3> (127.0.0.1:38028 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.31044.2> (127.0.0.1:42604 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.1508.3> (127.0.0.1:40654 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.8821.3> (127.0.0.1:41866 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.3061.3> (127.0.0.1:53114 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.11058.3> (127.0.0.1:33848 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.5682.3> (127.0.0.1:44194 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.10135.3> (127.0.0.1:53374 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.10791.3> (127.0.0.1:60622 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.10618.3> (127.0.0.1:59660 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:30:47 ===
+closing AMQP connection <0.9585.3> (127.0.0.1:49922 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::20:31:01 ===
+accepting AMQP connection <0.13733.3> (127.0.0.1:54230 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:31:10 ===
+accepting AMQP connection <0.13814.3> (127.0.0.1:57218 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:31:51 ===
+accepting AMQP connection <0.14161.3> (127.0.0.1:59528 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:31:56 ===
+closing AMQP connection <0.14161.3> (127.0.0.1:59528 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:31:58 ===
+accepting AMQP connection <0.14222.3> (127.0.0.1:59868 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:32:45 ===
+accepting AMQP connection <0.14623.3> (127.0.0.1:34104 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:32:50 ===
+closing AMQP connection <0.14623.3> (127.0.0.1:34104 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:32:51 ===
+accepting AMQP connection <0.14685.3> (127.0.0.1:34452 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:34:19 ===
+accepting AMQP connection <0.15410.3> (127.0.0.1:41178 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:34:44 ===
+accepting AMQP connection <0.15622.3> (127.0.0.1:43982 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:35:29 ===
+accepting AMQP connection <0.16000.3> (127.0.0.1:46530 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:35:34 ===
+closing AMQP connection <0.16000.3> (127.0.0.1:46530 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:35:37 ===
+accepting AMQP connection <0.16078.3> (127.0.0.1:47834 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:38:06 ===
+accepting AMQP connection <0.17292.3> (127.0.0.1:58918 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:39:16 ===
+accepting AMQP connection <0.17871.3> (127.0.0.1:34296 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:39:20 ===
+accepting AMQP connection <0.17914.3> (127.0.0.1:34466 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:39:22 ===
+closing AMQP connection <0.17871.3> (127.0.0.1:34296 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:40:25 ===
+accepting AMQP connection <0.18464.3> (127.0.0.1:37794 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:40:30 ===
+closing AMQP connection <0.18464.3> (127.0.0.1:37794 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:40:33 ===
+accepting AMQP connection <0.18541.3> (127.0.0.1:38226 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:41:31 ===
+accepting AMQP connection <0.19007.3> (127.0.0.1:44508 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:41:47 ===
+accepting AMQP connection <0.19165.3> (127.0.0.1:45350 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:42:32 ===
+accepting AMQP connection <0.19532.3> (127.0.0.1:47602 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:42:37 ===
+closing AMQP connection <0.19532.3> (127.0.0.1:47602 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:42:39 ===
+accepting AMQP connection <0.19595.3> (127.0.0.1:47952 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:45:13 ===
+accepting AMQP connection <0.20856.3> (127.0.0.1:58980 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:45:18 ===
+closing AMQP connection <0.20856.3> (127.0.0.1:58980 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::20:45:18 ===
+accepting AMQP connection <0.20918.3> (127.0.0.1:59256 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.19007.3> (127.0.0.1:44508 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.13733.3> (127.0.0.1:54230 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.13814.3> (127.0.0.1:57218 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.15622.3> (127.0.0.1:43982 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.16078.3> (127.0.0.1:47834 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.14222.3> (127.0.0.1:59868 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.15410.3> (127.0.0.1:41178 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.18541.3> (127.0.0.1:38226 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.19165.3> (127.0.0.1:45350 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.17292.3> (127.0.0.1:58918 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.14685.3> (127.0.0.1:34452 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.17914.3> (127.0.0.1:34466 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.19595.3> (127.0.0.1:47952 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::20:54:36 ===
+closing AMQP connection <0.20918.3> (127.0.0.1:59256 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::20:56:01 ===
+accepting AMQP connection <0.26171.3> (127.0.0.1:43950 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:03:26 ===
+accepting AMQP connection <0.29788.3> (127.0.0.1:49404 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::21:10:52 ===
+closing AMQP connection <0.26171.3> (127.0.0.1:43950 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::21:10:52 ===
+closing AMQP connection <0.29788.3> (127.0.0.1:49404 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::21:11:08 ===
+accepting AMQP connection <0.787.4> (127.0.0.1:56876 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:11:59 ===
+accepting AMQP connection <0.1220.4> (127.0.0.1:59422 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::21:12:00 ===
+closing AMQP connection <0.1220.4> (127.0.0.1:59422 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::21:12:00 ===
+closing AMQP connection <0.787.4> (127.0.0.1:56876 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::21:12:15 ===
+accepting AMQP connection <0.1365.4> (127.0.0.1:60202 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:12:58 ===
+accepting AMQP connection <0.1718.4> (127.0.0.1:34016 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:13:03 ===
+closing AMQP connection <0.1718.4> (127.0.0.1:34016 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:13:06 ===
+accepting AMQP connection <0.1796.4> (127.0.0.1:36166 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::21:37:40 ===
+closing AMQP connection <0.1365.4> (127.0.0.1:60202 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::21:37:40 ===
+closing AMQP connection <0.1796.4> (127.0.0.1:36166 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::21:38:08 ===
+accepting AMQP connection <0.13993.4> (127.0.0.1:51370 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:39:11 ===
+accepting AMQP connection <0.14523.4> (127.0.0.1:57996 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:39:16 ===
+closing AMQP connection <0.14523.4> (127.0.0.1:57996 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:39:25 ===
+accepting AMQP connection <0.14650.4> (127.0.0.1:58660 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::21:40:33 ===
+closing AMQP connection <0.13993.4> (127.0.0.1:51370 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::21:40:33 ===
+closing AMQP connection <0.14650.4> (127.0.0.1:58660 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::21:40:55 ===
+accepting AMQP connection <0.15397.4> (127.0.0.1:34616 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:42:00 ===
+accepting AMQP connection <0.15929.4> (127.0.0.1:37682 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:42:05 ===
+closing AMQP connection <0.15929.4> (127.0.0.1:37682 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:42:13 ===
+accepting AMQP connection <0.16055.4> (127.0.0.1:40760 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:42:16 ===
+accepting AMQP connection <0.16083.4> (127.0.0.1:41492 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:43:29 ===
+accepting AMQP connection <0.16697.4> (127.0.0.1:45288 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:43:34 ===
+closing AMQP connection <0.16697.4> (127.0.0.1:45288 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:43:39 ===
+accepting AMQP connection <0.16791.4> (127.0.0.1:45784 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 25-May-2016::21:44:00 ===
+accepting AMQP connection <0.16965.4> (127.0.0.1:46804 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::21:48:45 ===
+closing AMQP connection <0.16083.4> (127.0.0.1:41492 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::21:48:45 ===
+closing AMQP connection <0.15397.4> (127.0.0.1:34616 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::21:48:45 ===
+closing AMQP connection <0.16965.4> (127.0.0.1:46804 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::21:48:45 ===
+closing AMQP connection <0.16055.4> (127.0.0.1:40760 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 25-May-2016::21:48:45 ===
+closing AMQP connection <0.16791.4> (127.0.0.1:45784 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::21:49:03 ===
+accepting AMQP connection <0.19450.4> (127.0.0.1:39910 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::21:49:03 ===
+closing AMQP connection <0.19450.4> (127.0.0.1:39910 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::21:56:17 ===
+accepting AMQP connection <0.22972.4> (127.0.0.1:38852 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::21:56:17 ===
+closing AMQP connection <0.22972.4> (127.0.0.1:38852 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::21:57:55 ===
+accepting AMQP connection <0.23782.4> (127.0.0.1:43460 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::21:57:55 ===
+closing AMQP connection <0.23782.4> (127.0.0.1:43460 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::21:59:00 ===
+accepting AMQP connection <0.24314.4> (127.0.0.1:49884 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::21:59:00 ===
+closing AMQP connection <0.24314.4> (127.0.0.1:49884 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 25-May-2016::22:01:45 ===
+accepting AMQP connection <0.25675.4> (127.0.0.1:60808 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 25-May-2016::22:01:45 ===
+closing AMQP connection <0.25675.4> (127.0.0.1:60808 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 26-May-2016::21:13:37 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 26-May-2016::21:13:37 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 26-May-2016::21:13:42 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+Management plugin started. Port: 12345
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+Statistics database started.
+
+=INFO REPORT==== 26-May-2016::21:13:42 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 26-May-2016::21:16:24 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 26-May-2016::21:16:24 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 26-May-2016::21:16:24 ===
+Stopped RabbitMQ application
+
+=INFO REPORT==== 26-May-2016::21:16:24 ===
+Halting Erlang VM
+
+=INFO REPORT==== 26-May-2016::21:16:43 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 26-May-2016::21:16:43 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+Management plugin started. Port: 8080
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+Statistics database started.
+
+=INFO REPORT==== 26-May-2016::21:16:48 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=WARNING REPORT==== 26-May-2016::21:16:59 ===
+HTTP access denied: user 'guest' - User can only log in via localhost
+
+=ERROR REPORT==== 26-May-2016::21:16:59 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=WARNING REPORT==== 26-May-2016::21:17:03 ===
+HTTP access denied: user 'guest' - User can only log in via localhost
+
+=ERROR REPORT==== 26-May-2016::21:17:03 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=WARNING REPORT==== 26-May-2016::21:18:04 ===
+HTTP access denied: user 'ggd94' - invalid credentials
+
+=ERROR REPORT==== 26-May-2016::21:18:04 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=WARNING REPORT==== 26-May-2016::21:34:31 ===
+HTTP access denied: user 'guest' - User can only log in via localhost
+
+=ERROR REPORT==== 26-May-2016::21:34:31 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=WARNING REPORT==== 26-May-2016::21:39:11 ===
+HTTP access denied: user 'guest' - User can only log in via localhost
+
+=ERROR REPORT==== 26-May-2016::21:39:11 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=INFO REPORT==== 26-May-2016::21:48:49 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 26-May-2016::21:48:49 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 26-May-2016::21:48:49 ===
+Stopped RabbitMQ application
+
+=INFO REPORT==== 26-May-2016::21:48:49 ===
+Halting Erlang VM
+
+=INFO REPORT==== 26-May-2016::21:49:09 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 26-May-2016::21:49:09 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 26-May-2016::21:49:13 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 26-May-2016::21:49:13 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 26-May-2016::21:49:13 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 26-May-2016::21:49:13 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 26-May-2016::21:49:13 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 26-May-2016::21:49:13 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 26-May-2016::21:49:13 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 26-May-2016::21:49:13 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 26-May-2016::21:49:13 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 26-May-2016::21:49:13 ===
+Management plugin started. Port: 8080
+
+=INFO REPORT==== 26-May-2016::21:49:13 ===
+Statistics database started.
+
+=INFO REPORT==== 26-May-2016::21:49:14 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=WARNING REPORT==== 26-May-2016::21:49:30 ===
+HTTP access denied: user 'guest' - User can only log in via localhost
+
+=ERROR REPORT==== 26-May-2016::21:49:30 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=INFO REPORT==== 26-May-2016::21:55:17 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 26-May-2016::21:55:17 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 26-May-2016::21:55:17 ===
+Stopped RabbitMQ application
+
+=INFO REPORT==== 26-May-2016::21:55:17 ===
+Halting Erlang VM
+
+=INFO REPORT==== 26-May-2016::21:55:33 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 26-May-2016::21:55:33 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 26-May-2016::21:55:36 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 26-May-2016::21:55:36 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 26-May-2016::21:55:37 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 26-May-2016::21:55:37 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 26-May-2016::21:55:37 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 26-May-2016::21:55:37 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 26-May-2016::21:55:37 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 26-May-2016::21:55:37 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 26-May-2016::21:55:37 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 26-May-2016::21:55:37 ===
+Management plugin started. Port: 8080
+
+=INFO REPORT==== 26-May-2016::21:55:37 ===
+Statistics database started.
+
+=INFO REPORT==== 26-May-2016::21:55:37 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=WARNING REPORT==== 26-May-2016::21:55:45 ===
+HTTP access denied: user 'guest' - User can only log in via localhost
+
+=ERROR REPORT==== 26-May-2016::21:55:45 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=WARNING REPORT==== 26-May-2016::21:55:48 ===
+HTTP access denied: user 'guest' - User can only log in via localhost
+
+=ERROR REPORT==== 26-May-2016::21:55:48 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=WARNING REPORT==== 26-May-2016::21:55:48 ===
+HTTP access denied: user 'guest' - User can only log in via localhost
+
+=ERROR REPORT==== 26-May-2016::21:55:48 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=WARNING REPORT==== 26-May-2016::21:55:50 ===
+HTTP access denied: user 'guest' - User can only log in via localhost
+
+=ERROR REPORT==== 26-May-2016::21:55:50 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=WARNING REPORT==== 26-May-2016::21:56:11 ===
+HTTP access denied: user 'guest' - User can only log in via localhost
+
+=ERROR REPORT==== 26-May-2016::21:56:11 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=WARNING REPORT==== 26-May-2016::21:56:12 ===
+HTTP access denied: user 'guest' - User can only log in via localhost
+
+=ERROR REPORT==== 26-May-2016::21:56:12 ===
+webmachine error: path="/api/whoami"
+"Unauthorized"
+
+=INFO REPORT==== 26-May-2016::22:09:14 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 26-May-2016::22:09:15 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 26-May-2016::22:09:15 ===
+Stopped RabbitMQ application
+
+=INFO REPORT==== 26-May-2016::22:09:15 ===
+Halting Erlang VM
+
+=INFO REPORT==== 26-May-2016::22:09:22 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 26-May-2016::22:09:22 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 26-May-2016::22:09:26 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 26-May-2016::22:09:26 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 26-May-2016::22:09:26 ===
+Limiting to approx 1048476 file handles (943626 sockets)
+
+=INFO REPORT==== 26-May-2016::22:09:26 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 26-May-2016::22:09:26 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 26-May-2016::22:09:26 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 26-May-2016::22:09:26 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 26-May-2016::22:09:26 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 26-May-2016::22:09:26 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 26-May-2016::22:09:26 ===
+Management plugin started. Port: 8080
+
+=INFO REPORT==== 26-May-2016::22:09:26 ===
+Statistics database started.
+
+=INFO REPORT==== 26-May-2016::22:09:27 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client
+
+=INFO REPORT==== 27-May-2016::20:59:30 ===
+Starting RabbitMQ 3.6.1 on Erlang R16B03
+Copyright (C) 2007-2016 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 27-May-2016::20:59:30 ===
+node           : rabbit@ggd94-app-3139141
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : ajQ48Mf9tNwS3wt3f/SFPg==
+log            : /var/log/rabbitmq/rabbit@ggd94-app-3139141.log
+sasl log       : /var/log/rabbitmq/rabbit@ggd94-app-3139141-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@ggd94-app-3139141
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+Memory limit set to 20935MB of 52339MB total.
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+Limiting to approx 1948 file handles (1751 sockets)
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 27-May-2016::20:59:35 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+Statistics database started.
+
+=INFO REPORT==== 27-May-2016::20:59:35 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_management_agent
+ * amqp_client

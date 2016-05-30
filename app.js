@@ -1,4 +1,8 @@
-var express = require('express');
+//var express = require('express');
+var require_server=require('./server');
+var app=require_server.app;
+var server=require_server.server;
+var express=require_server.express;
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -7,12 +11,10 @@ var bodyParser = require('body-parser');
 
 
 
-
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
-var app = express();
-
+//var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -29,8 +31,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes); //gestione URI di utenti non loggati (NESSUNA ENTITÀ)
 app.use('/users', users); //gestione URI di utenti loggati (ENTITÀ UTENTE)
-
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -65,7 +65,7 @@ app.use(function(err, req, res, next) {
 
 var server_ip=process.env.IP;
 var server_port=process.env.PORT;
-app.listen(server_port,server_ip);
+server.listen(server_port,server_ip);
 
 
 module.exports = app;
